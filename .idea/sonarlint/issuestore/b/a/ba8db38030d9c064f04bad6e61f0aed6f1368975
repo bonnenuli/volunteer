@@ -1,0 +1,133 @@
+
+t	java:S116"SRename this field "jPanel_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£’³øÿÿÿÿ8µõù„2
+o	java:S116"SRename this field "jPanel_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şûò8µõù„2
+o	java:S116"SRename this field "jPanel_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¢¡õ8µõù„2
+t	java:S116"SRename this field "jPanel_4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÖ¦¤ÿÿÿÿÿ8µõù„2
+o	java:S116"SRename this field "jPanel_5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ş¨“8µõù„2
+q	java:S116C"URename this field "listener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ª¼“8µõù„2
+v	java:S116D"URename this field "listener_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§˜õ‡üÿÿÿÿ8İööù„2
+H
+java:S23876"+"state" is the name of a field in "Window".(Ü•½Â8¹õù„2
+C
+java:S1659"!Declare "one" on a separate line.(»Ãœšûÿÿÿÿ8ºõù„2
+K
+java:S19489")Make "columns" transient or serializable.(¢Ò×ûÿÿÿÿ8ºõù„2
+I
+java:S1948C",Make "listener_1" transient or serializable.(¬ª¼“8ºõù„2
+N
+java:S1948D",Make "listener_2" transient or serializable.(§˜õ‡üÿÿÿÿ8åööù„2
+‚
+java:S1149<"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¡ßùÈ8»õù„2
+L
+java:S11979"*Move the array designators [] to the type.(¢Ò×ûÿÿÿÿ8½õù„2
+N
+java:S1197=",Move the array designators [][] to the type.(‘ºûÿÿÿÿ8½õù„2
+i
+java:S3252J"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8¾õù„2
+H
+java:S2440Z"&Remove this instantiation of "Fronts".(§‚¢êúÿÿÿÿ8¿õù„2
+c
+java:S3252b"AUse static access with "javax.swing.SwingConstants" for "CENTER".(±Ÿ¦ıÿÿÿÿ8Áõù„2
+W
+java:S2209c"5Change this instance-reference to a static reference.(Èî‚¿úÿÿÿÿ8Áõù„2
+S
+java:S2696t"6Make the enclosing method "static" or remove this set.(¹ˆ¥æ8Âõù„2
+W
+java:S2209u"5Change this instance-reference to a static reference.(¼ö…¶ûÿÿÿÿ8Âõù„2
+X
+java:S2696|"6Make the enclosing method "static" or remove this set.(«©ææúÿÿÿÿ8Âõù„2
+W
+java:S2209"5Change this instance-reference to a static reference.(¿î¾Äûÿÿÿÿ8Âõù„2
+Y
+java:S2696„"6Make the enclosing method "static" or remove this set.(Š¶œúÿÿÿÿ8Âõù„2
+X
+java:S2209…"5Change this instance-reference to a static reference.(ß¤…ïÿÿÿÿÿ8Âõù„2
+Y
+java:S2696Œ"6Make the enclosing method "static" or remove this set.(‡¨™ôşÿÿÿÿ8Ãõù„2
+S
+java:S2209"5Change this instance-reference to a static reference.(éÀ¡8Ãõù„2
+T
+java:S2696”"6Make the enclosing method "static" or remove this set.(«Î§Ê8Ãõù„2
+R
+java:S2209•"5Change this instance-reference to a static reference.(ìı¨O8Ãõù„2
+T
+java:S2696œ"6Make the enclosing method "static" or remove this set.(ˆ“¥»8Äõù„2
+S
+java:S2209"5Change this instance-reference to a static reference.(´ö…8Äõù„2
+T
+java:S2696¤"6Make the enclosing method "static" or remove this set.(˜¦”ë8Äõù„2
+X
+java:S2209¨"5Change this instance-reference to a static reference.(Øàƒëÿÿÿÿÿ8Äõù„2
+T
+java:S2696¬"6Make the enclosing method "static" or remove this set.(Î™8Äõù„2
+X
+java:S2209°"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ8Åõù„2
+T
+java:S2696½"6Make the enclosing method "static" or remove this set.(ä‰³8Åõù„2
+Y
+java:S2696¾"6Make the enclosing method "static" or remove this set.(‹è¾şÿÿÿÿÿ8Æõù„2
+X
+java:S2209¿"5Change this instance-reference to a static reference.(ó“è«ÿÿÿÿÿ8Æõù„2
+Y
+java:S2696Ã"6Make the enclosing method "static" or remove this set.(ùä»œùÿÿÿÿ8Æõù„2
+S
+java:S2209Ä"5Change this instance-reference to a static reference.(¯êĞü8Æõù„2
+T
+java:S2696È"6Make the enclosing method "static" or remove this set.(±¯õ®8Çõù„2
+T
+java:S2696Ê"6Make the enclosing method "static" or remove this set.(˜®‰ê8Çõù„2
+Y
+java:S2696Ì"6Make the enclosing method "static" or remove this set.(Àõ­ºúÿÿÿÿ8Èõù„2
+T
+java:S2696Î"6Make the enclosing method "static" or remove this set.(ÅüÙ8Èõù„2
+T
+java:S2696Ñ"6Make the enclosing method "static" or remove this set.(ÒïîÙ8Èõù„2
+T
+java:S2696Ô"6Make the enclosing method "static" or remove this set.(“çá8Èõù„2
+T
+java:S2696æ"6Make the enclosing method "static" or remove this set.(Ù½¡¡8Èõù„2
+X
+java:S2209ç"5Change this instance-reference to a static reference.(µ÷ñııÿÿÿÿ8Èõù„2
+T
+java:S2696é"6Make the enclosing method "static" or remove this set.(åâÆ†8Éõù„2
+T
+java:S2696ë"6Make the enclosing method "static" or remove this set.(Ê­ÔÛ8Éõù„2
+S
+java:S2209ì"5Change this instance-reference to a static reference.(àâÑÔ8Éõù„2
+S
+java:S2696î"6Make the enclosing method "static" or remove this set.(Ş´»8Éõù„2
+T
+java:S2696ğ"6Make the enclosing method "static" or remove this set.(Ü©üÁ8Éõù„2
+S
+java:S2209ñ"5Change this instance-reference to a static reference.(‡ù²Ó8Éõù„2
+Y
+java:S2696ó"6Make the enclosing method "static" or remove this set.(¦ûıºıÿÿÿÿ8Éõù„2
+Y
+java:S2696õ"6Make the enclosing method "static" or remove this set.(¨Àš‰øÿÿÿÿ8Éõù„2
+X
+java:S2209ö"5Change this instance-reference to a static reference.(óüï™şÿÿÿÿ8Éõù„2
+T
+java:S2696ø"6Make the enclosing method "static" or remove this set.(…¿Â¬8Éõù„2
+T
+java:S2696ú"6Make the enclosing method "static" or remove this set.(îİÜ8Éõù„2
+X
+java:S2209û"5Change this instance-reference to a static reference.(çÆıØüÿÿÿÿ8Éõù„2
+T
+java:S2696ı"6Make the enclosing method "static" or remove this set.(ûşÕû8Éõù„2
+k	java:S100·"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í…8Ìõù„2
+S
+java:S2696Ê"6Make the enclosing method "static" or remove this set.(Ğ¦¦8Íõù„2
+z
+java:S3252Î"\Use static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_AS_NEEDED".(÷êŠù8Îõù„2
+T
+java:S2696Ó"6Make the enclosing method "static" or remove this set.(·ºüÊ8Ïõù„2
+S
+java:S2696Ö"6Make the enclosing method "static" or remove this set.(Òæâ?8Òõù„2
+X
+java:S1161×":Add the "@Override" annotation above this method signature(ê¹—é8Òõù„2
+Y
+java:S2696İ"6Make the enclosing method "static" or remove this set.(øÂ÷¼øÿÿÿÿ8Òõù„2
+<
+java:S2386å"Make member "rwo" "protected".(¤ÓşÏ8Òõù„2
+T
+java:S2696å"6Make the enclosing method "static" or remove this set.(¤ÓşÏ8Òõù„2

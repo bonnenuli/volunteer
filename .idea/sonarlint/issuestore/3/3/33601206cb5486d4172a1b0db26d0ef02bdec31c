@@ -1,0 +1,19 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿ Ø÷
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(¼ Òşüÿÿÿÿ
+@	java:S106""+Replace this use of System.out by a logger.(µ…
+B
+java:S1125@"'Remove the unnecessary boolean literal.(ú„¡ºÿÿÿÿÿ
+E
+java:S1197K"*Move the array designators [] to the type.(£€ŸÜÿÿÿÿÿ
+B
+java:S1125b"'Remove the unnecessary boolean literal.(ŞşÖøÿÿÿÿ
+E
+java:S1197s"*Move the array designators [] to the type.(£€ŸÜÿÿÿÿÿ
+C	java:S108|")Either remove or fill this block of code.(®¤¯îıÿÿÿÿ
+F
+java:S1197‚"*Move the array designators [] to the type.(£€ŸÜÿÿÿÿÿ
+D	java:S108")Either remove or fill this block of code.(Ò´øÿÿÿÿ
+á
+java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 96 to 64, Complexity from 28 to 14, Nesting Level from 5 to 2, Number of Variables from 22 to 6.(¼ Òşüÿÿÿÿ

@@ -1,0 +1,64 @@
+
+L
+java:S3740R"/Provide the parametrized type for this generic.(Çä•8Ó£Èô„2
+p
+java:S1104"SMake account a static final constant or non-public and provide accessors if needed.(Úò±«8Ô£Èô„2
+q
+java:S1104"TMake password a static final constant or non-public and provide accessors if needed.(—‘‹8Ô£Èô„2
+m
+java:S1104"PMake role a static final constant or non-public and provide accessors if needed.(º¸º‚8Ô£Èô„2
+q
+java:S1104"TMake comboBox a static final constant or non-public and provide accessors if needed.(œ•çÉ8Ô£Èô„2
+t
+java:S1104"WMake accounttext a static final constant or non-public and provide accessors if needed.(–®Ÿ8Ô£Èô„2
+t
+java:S1104"XMake passwordtext a static final constant or non-public and provide accessors if needed.(í¬B8Ô£Èô„2
+s
+java:S1104"QMake login a static final constant or non-public and provide accessors if needed.(ê•É”ùÿÿÿÿ8Ô£Èô„2
+v
+java:S1104"TMake register a static final constant or non-public and provide accessors if needed.(¹È¡äşÿÿÿÿ8Ô£Èô„2
+G
+java:S1444"*Make this "public static role" field final(º¸º‚8ç¥¢õ„2
+K
+java:S1444".Make this "public static comboBox" field final(œ•çÉ8›‰Êô„2
+N
+java:S1444"1Make this "public static accounttext" field final(–®Ÿ8Ô£Èô„2
+N
+java:S1444"2Make this "public static passwordtext" field final(í¬B8Ô£Èô„2
+6
+java:S1700"Rename field "login"(ê•É”ùÿÿÿÿ8Õ£Èô„2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8ì¸ó¼…2
+G
+java:S2387"*"title" is the name of a field in "Frame".(¨±¸8ô£Èô„2
+G
+java:S1948"*Make "regevent" transient or serializable.(êãƒ´8õ£Èô„2
+H
+java:S1948"+Make "logiEvent" transient or serializable.(Å«›8Ïã¿ö„2
+i
+java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(ù‘ò8ù£Èô„2
+H
+java:S2440/"&Remove this instantiation of "Fronts".(§‚¢êúÿÿÿÿ8û£Èô„2
+W
+java:S2209<"5Change this instance-reference to a static reference.(¢îŞ‚ıÿÿÿÿ8ü£Èô„2
+R
+java:S2209@"5Change this instance-reference to a static reference.(¥“Ì½8ı£Èô„2
+S
+java:S2696C"6Make the enclosing method "static" or remove this set.(˜ışÈ8ş£Èô„2
+W
+java:S2209D"5Change this instance-reference to a static reference.(™ş¿¢ùÿÿÿÿ8ş£Èô„2
+R
+java:S2209H"5Change this instance-reference to a static reference.(­ú°ø8ÿ£Èô„2
+X
+java:S2696K"6Make the enclosing method "static" or remove this set.(ÖÎ¶¿ıÿÿÿÿ8ÿ£Èô„2
+R
+java:S2209L"5Change this instance-reference to a static reference.(±ø±8€¤Èô„2
+S
+java:S2696O"6Make the enclosing method "static" or remove this set.(õçï8‚¦¢õ„2
+R
+java:S2209P"5Change this instance-reference to a static reference.(¶¡ÆŒ8¤Èô„2
+S
+java:S2696R"6Make the enclosing method "static" or remove this set.(Çä•8¸‰Êô„2
+W
+java:S2209X"5Change this instance-reference to a static reference.(Á÷Ìáÿÿÿÿÿ8„¤Èô„2
+R
+java:S2209_"5Change this instance-reference to a static reference.(£Çà8…¤Èô„2

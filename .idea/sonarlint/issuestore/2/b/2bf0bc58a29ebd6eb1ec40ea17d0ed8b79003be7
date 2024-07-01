@@ -1,0 +1,88 @@
+
+v
+java:S1104"TMake nametext a static final constant or non-public and provide accessors if needed.(¡ô´ÿûÿÿÿÿ8‰Ñµº…2
+t
+java:S1104"WMake accounttext a static final constant or non-public and provide accessors if needed.(ş ¡°8‰Ñµº…2
+t
+java:S1104"XMake passwordtext a static final constant or non-public and provide accessors if needed.(í¬B8‰Ñµº…2
+|
+java:S1104"ZMake okpasswordtext a static final constant or non-public and provide accessors if needed.(íÿìËûÿÿÿÿ8‰Ñµº…2
+q
+java:S1104 "OMake reg a static final constant or non-public and provide accessors if needed.(­½”´úÿÿÿÿ8‰Ñµº…2
+s
+java:S1104!"VMake exitButton a static final constant or non-public and provide accessors if needed.(­´ª°8‰Ñµº…2
+q
+java:S1104""OMake fan a static final constant or non-public and provide accessors if needed.(àÇëŠúÿÿÿÿ8‰Ñµº…2
+P
+java:S1444".Make this "public static nametext" field final(¡ô´ÿûÿÿÿÿ8‰Ñµº…2
+N
+java:S1444"1Make this "public static accounttext" field final(ş ¡°8‰Ñµº…2
+N
+java:S1444"2Make this "public static passwordtext" field final(í¬B8‰Ñµº…2
+V
+java:S1444"4Make this "public static okpasswordtext" field final(íÿìËûÿÿÿÿ8‰Ñµº…2
+K
+java:S1444 ")Make this "public static reg" field final(­½”´úÿÿÿÿ8‰Ñµº…2
+M
+java:S1444!"0Make this "public static exitButton" field final(­´ª°8‰Ñµº…2
+K
+java:S1444"")Make this "public static fan" field final(àÇëŠúÿÿÿÿ8‰Ñµº…2
+l	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍèóÈ8˜Ñµº…2
+r	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¿Şäøÿÿÿÿ8˜Ñµº…2
+v	java:S116%"URename this field "lintener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¬Š±úÿÿÿÿ8˜Ñµº…2
+G
+java:S2387"*"title" is the name of a field in "Frame".(¨±¸8›Ñµº…2
+>
+java:S1170"!Make this final field static too.(ÍèóÈ8›Ñµº…2
+C
+java:S1170"!Make this final field static too.(ñ¿Şäøÿÿÿÿ8›Ñµº…2
+{
+java:S1450%"YRemove the "lintener_1" field and declare it as a local variable in the relevant methods.(ß¬Š±úÿÿÿÿ8œÑµº…2
+N
+java:S1948%",Make "lintener_1" transient or serializable.(ß¬Š±úÿÿÿÿ8Ñµº…2
+i
+java:S3252+"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(ù‘ò8ŸÑµº…2
+H
+java:S2440A"&Remove this instantiation of "Fronts".(§‚¢êúÿÿÿÿ8¢Ñµº…2
+W
+java:S2209C"5Change this instance-reference to a static reference.(¢îŞ‚ıÿÿÿÿ8¢Ñµº…2
+X
+java:S2696F"6Make the enclosing method "static" or remove this set.(øïŒ“ıÿÿÿÿ8¢Ñµº…2
+I
+java:S1602M",Remove useless curly braces around statement(ö»š8¥Ñµº…2
+W
+java:S2209S"5Change this instance-reference to a static reference.(áŠ—¤ıÿÿÿÿ8¦Ñµº…2
+X
+java:S2696T"6Make the enclosing method "static" or remove this set.(ò÷ÅÃşÿÿÿÿ8¦Ñµº…2
+R
+java:S2209V"5Change this instance-reference to a static reference.(Ö¤éÿ8§Ñµº…2
+W
+java:S2209Y"5Change this instance-reference to a static reference.(‘Øüÿÿÿÿ8§Ñµº…2
+R
+java:S2209^"5Change this instance-reference to a static reference.(¥“Ì½8§Ñµº…2
+X
+java:S2696_"6Make the enclosing method "static" or remove this set.(¥µ”Òúÿÿÿÿ8§Ñµº…2
+W
+java:S2209a"5Change this instance-reference to a static reference.(™ş¿¢ùÿÿÿÿ8¨Ñµº…2
+W
+java:S2209e"5Change this instance-reference to a static reference.(ğÒÜáûÿÿÿÿ8¨Ñµº…2
+R
+java:S2209i"5Change this instance-reference to a static reference.(­ú°ø8¨Ñµº…2
+S
+java:S2696j"6Make the enclosing method "static" or remove this set.(õŸÌ˜8¨Ñµº…2
+R
+java:S2209l"5Change this instance-reference to a static reference.(±ø±8¨Ñµº…2
+R
+java:S2209p"5Change this instance-reference to a static reference.(ßÇÎ‚8©Ñµº…2
+W
+java:S2209t"5Change this instance-reference to a static reference.(Éñ ´ÿÿÿÿÿ8©Ñµº…2
+X
+java:S2696u"6Make the enclosing method "static" or remove this set.(Ûïİˆşÿÿÿÿ8©Ñµº…2
+W
+java:S2209w"5Change this instance-reference to a static reference.(æ­„ìûÿÿÿÿ8©Ñµº…2
+W
+java:S2209{"5Change this instance-reference to a static reference.(®úŸÅüÿÿÿÿ8©Ñµº…2
+X
+java:S2696}"6Make the enclosing method "static" or remove this set.(šøåÀüÿÿÿÿ8©Ñµº…2
+Y
+java:S2696…"6Make the enclosing method "static" or remove this set.(¥Šˆ¡ÿÿÿÿÿ8ªÑµº…2

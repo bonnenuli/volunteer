@@ -1,0 +1,62 @@
+
+u
+java:S1104"SMake account a static final constant or non-public and provide accessors if needed.(½íúÿÿÿÿ8Ö†¥ö„2
+Y
+java:S4973)"<Strings and Boxed types should be compared using "equals()".(Ù©ğ´8š¨ö„2
+^
+java:S4973,"<Strings and Boxed types should be compared using "equals()".(¸‡Áşÿÿÿÿ8š¨ö„2
+Z
+java:S4973ä"<Strings and Boxed types should be compared using "equals()".(™ª¯Î8š¨ö„2
+Z
+java:S4973è"<Strings and Boxed types should be compared using "equals()".(‚Û‚8š¨ö„2
+Z
+java:S4973ì"<Strings and Boxed types should be compared using "equals()".(©ñïƒ8š¨ö„2
+Z
+java:S4973ğ"<Strings and Boxed types should be compared using "equals()".(Êå…‡8š¨ö„2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿ Ø÷8¶‡¥ö„2
+u
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 108 to the 15 allowed.(¼ Òşüÿÿÿÿ8òˆ¥ö„2
+]
+java:S1117";Rename "account" which hides the field declared at line 18.(Òû¦¢ûÿÿÿÿ8ôˆ¥ö„2
+D
+java:S1125>"'Remove the unnecessary boolean literal.(Áöü8î¨ö„2
+D
+java:S1125>"'Remove the unnecessary boolean literal.(Áöü8ï¨ö„2
+D
+java:S1125>"'Remove the unnecessary boolean literal.(Áöü8ï¨ö„2
+D
+java:S1125A"'Remove the unnecessary boolean literal.(„ŒóØ8ï¨ö„2
+D
+java:S1125A"'Remove the unnecessary boolean literal.(„ŒóØ8ï¨ö„2
+D
+java:S1125A"'Remove the unnecessary boolean literal.(„ŒóØ8ï¨ö„2
+C
+java:S1125L"'Remove the unnecessary boolean literal.(˜”¾f8ï¨ö„2
+G
+java:S1197R"*Move the array designators [] to the type.(Ä¦â¤8ğ¨ö„2
+D
+java:S1125u"'Remove the unnecessary boolean literal.(Áöü8ğ¨ö„2
+D
+java:S1125u"'Remove the unnecessary boolean literal.(Áöü8ñ¨ö„2
+D
+java:S1125u"'Remove the unnecessary boolean literal.(Áöü8ñ¨ö„2
+D
+java:S1125x"'Remove the unnecessary boolean literal.(„ŒóØ8ñ¨ö„2
+D
+java:S1125x"'Remove the unnecessary boolean literal.(„ŒóØ8ñ¨ö„2
+D
+java:S1125x"'Remove the unnecessary boolean literal.(„ŒóØ8ñ¨ö„2
+D
+java:S1125ƒ"'Remove the unnecessary boolean literal.(˜”¾f8ò¨ö„2
+D
+java:S1125›"'Remove the unnecessary boolean literal.(˜”¾f8ò¨ö„2
+H	java:S106¤"+Replace this use of System.out by a logger.(µ…8ò¨ö„2
+M	java:S106õ"+Replace this use of System.out by a logger.(×„í–ùÿÿÿÿ8õ¨ö„2
+H
+java:S1197ú"*Move the array designators [] to the type.(Ä¦â¤8ö¨ö„2
+F	java:S108…")Either remove or fill this block of code.(É®£8ö¨ö„2
+H
+java:S1197‹"*Move the array designators [] to the type.(Ä¦â¤8ö¨ö„2
+F	java:S108Ÿ")Either remove or fill this block of code.(É®£8ø¨ö„2
+é
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 214 to 64, Complexity from 71 to 14, Nesting Level from 5 to 2, Number of Variables from 39 to 6.(¼ Òşüÿÿÿÿ8‚‰¥ö„2

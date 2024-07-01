@@ -1,0 +1,110 @@
+
+E
+java:S1604á"(Make this anonymous inner class a lambda(ş’æ$8õĞù„2
+o
+java:S11040"TMake nametext a static final constant or non-public and provide accessors if needed.(¡ô´ÿûÿÿÿÿ
+q
+java:S11042"VMake numbertext a static final constant or non-public and provide accessors if needed.(Å¿†ğûÿÿÿÿ
+g
+java:S11044"RMake emtext a static final constant or non-public and provide accessors if needed.(ú¤¤
+i
+java:S11046"SMake numtext a static final constant or non-public and provide accessors if needed.(ë˜íÕ
+h
+java:S11048"RMake brtext a static final constant or non-public and provide accessors if needed.(Áöˆ¤
+I
+java:S14440".Make this "public static nametext" field final(¡ô´ÿûÿÿÿÿ
+K
+java:S14442"0Make this "public static numbertext" field final(Å¿†ğûÿÿÿÿ
+A
+java:S14444",Make this "public static emtext" field final(ú¤¤
+C
+java:S14446"-Make this "public static numtext" field final(ë˜íÕ
+B
+java:S14448",Make this "public static brtext" field final(Áöˆ¤
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü€ü
+j	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉË¸«ÿÿÿÿÿ
+k	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã·Â¦úÿÿÿÿ
+m	java:S116"SRename this field "jPanel_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è½·Äıÿÿÿÿ
+h	java:S116"SRename this field "jPanel_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶»üŞ
+m	java:S116"SRename this field "jPanel_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÄÏİÿÿÿÿÿ
+h	java:S116"SRename this field "jPanel_4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å­ğ‘
+m	java:S116"SRename this field "jPanel_5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öçƒ¢üÿÿÿÿ
+j	java:S116<"URename this field "listener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ª¼“
+v	java:S116="URename this field "listener_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§˜õ‡üÿÿÿÿ8‰‰‰ù„2
+<
+java:S1170"!Make this final field static too.(ÉË¸«ÿÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(ã·Â¦úÿÿÿÿ
+B
+java:S1948<",Make "listener_1" transient or serializable.(¬ª¼“
+N
+java:S1948=",Make "listener_2" transient or serializable.(§˜õ‡üÿÿÿÿ8‰‰ù„2
+b
+java:S3252E"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(ù‘ò
+J
+java:S1659 "'Declare "newHeight" on a separate line.(µÅ¶³üÿÿÿÿ8«ÅËÂ„2
+A
+java:S2440T"&Remove this instantiation of "Fronts".(§‚¢êúÿÿÿÿ
+\
+java:S3252["AUse static access with "javax.swing.SwingConstants" for "CENTER".(±Ÿ¦ıÿÿÿÿ
+P
+java:S2209\"5Change this instance-reference to a static reference.(Èî‚¿úÿÿÿÿ
+P
+java:S2209n"5Change this instance-reference to a static reference.(ğÀÔùÿÿÿÿ
+K
+java:S2209u"5Change this instance-reference to a static reference.(×®ë
+P
+java:S2209x"5Change this instance-reference to a static reference.(ä¶ªÿÿÿÿÿ
+K
+java:S2209}"5Change this instance-reference to a static reference.(éÀ¡
+K
+java:S2209‚"5Change this instance-reference to a static reference.(ìı¨O
+L
+java:S2209‡"5Change this instance-reference to a static reference.(Ø¥¨Í
+Q
+java:S2209Œ"5Change this instance-reference to a static reference.(ç¹„şûÿÿÿÿ
+Q
+java:S2209‘"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ
+Q
+java:S2209µ"5Change this instance-reference to a static reference.(áŠ—¤ıÿÿÿÿ
+R
+java:S2696¶"6Make the enclosing method "static" or remove this set.(ò÷ÅÃşÿÿÿÿ
+L
+java:S2209¸"5Change this instance-reference to a static reference.(Ö¤éÿ
+L
+java:S2209¼"5Change this instance-reference to a static reference.(…Œ¡
+R
+java:S2696½"6Make the enclosing method "static" or remove this set.(ú™…Íÿÿÿÿÿ
+K
+java:S2209¿"5Change this instance-reference to a static reference.(Éå9
+L
+java:S2209Â"5Change this instance-reference to a static reference.(ŠƒİÉ
+R
+java:S2696Ã"6Make the enclosing method "static" or remove this set.(—œ´‚şÿÿÿÿ
+Q
+java:S2209Å"5Change this instance-reference to a static reference.(¯£Ğ£ÿÿÿÿÿ
+K
+java:S2209È"5Change this instance-reference to a static reference.(è»ÌD
+R
+java:S2696É"6Make the enclosing method "static" or remove this set.(â±õÍşÿÿÿÿ
+L
+java:S2209Ë"5Change this instance-reference to a static reference.(ó²Ş¥
+Q
+java:S2209Î"5Change this instance-reference to a static reference.(æòëÜÿÿÿÿÿ
+R
+java:S2696Ï"6Make the enclosing method "static" or remove this set.(†íÆŠøÿÿÿÿ
+K
+java:S2209Ñ"5Change this instance-reference to a static reference.(¢Òå(
+Q
+java:S2209Õ"5Change this instance-reference to a static reference.(Œœªúÿÿÿÿ
+T
+java:S2696Ø"6Make the enclosing method "static" or remove this set.(Õ”¾á8ùÿ‚ù„2
+Q
+java:S2209Ù"5Change this instance-reference to a static reference.(‚îõ©úÿÿÿÿ
+L
+java:S2209ƒ"5Change this instance-reference to a static reference.(‘Ñ…“
+S
+java:S2209ˆ"5Change this instance-reference to a static reference.(ıìÆ˜8–Ñù„2
+k	java:S100»"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í…8œ“ˆù„2
+V
+java:S1128"4Remove this unused import 'Jframe.ManageUtl.Myself'.(Ó”ãúÿÿÿÿ8œÓŒù„2

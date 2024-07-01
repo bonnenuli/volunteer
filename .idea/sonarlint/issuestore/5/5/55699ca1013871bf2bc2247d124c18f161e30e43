@@ -1,0 +1,38 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü€ü
+j	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉË¸«ÿÿÿÿÿ
+k	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã·Â¦úÿÿÿÿ
+m	java:S116"SRename this field "jPanel_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è½·Äıÿÿÿÿ
+h	java:S116"SRename this field "jPanel_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶»üŞ
+m	java:S116"SRename this field "jPanel_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÄÏİÿÿÿÿÿ
+j	java:S116#"URename this field "listener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ª¼“
+<
+java:S1170"!Make this final field static too.(ÉË¸«ÿÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(ã·Â¦úÿÿÿÿ
+B
+java:S1948#",Make "listener_1" transient or serializable.(¬ª¼“
+b
+java:S3252+"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(ù‘ò
+A
+java:S2440:"&Remove this instantiation of "Fronts".(§‚¢êúÿÿÿÿ
+\
+java:S3252A"AUse static access with "javax.swing.SwingConstants" for "CENTER".(±Ÿ¦ıÿÿÿÿ
+P
+java:S2209B"5Change this instance-reference to a static reference.(Èî‚¿úÿÿÿÿ
+P
+java:S2209T"5Change this instance-reference to a static reference.(ğÀÔùÿÿÿÿ
+K
+java:S2209["5Change this instance-reference to a static reference.(×®ë
+P
+java:S2209^"5Change this instance-reference to a static reference.(ä¶ªÿÿÿÿÿ
+K
+java:S2209c"5Change this instance-reference to a static reference.(éÀ¡
+J
+java:S2209h"5Change this instance-reference to a static reference.(ìı¨O
+K
+java:S2209m"5Change this instance-reference to a static reference.(Ø¥¨Í
+P
+java:S2209r"5Change this instance-reference to a static reference.(ç¹„şûÿÿÿÿ
+P
+java:S2209w"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ

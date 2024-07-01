@@ -1,0 +1,202 @@
+
+L
+java:S3740;"/Provide the parametrized type for this generic.(¡ßùÈ8Â¿ø™„2
+M
+java:S3740Õ"/Provide the parametrized type for this generic.(¤ÓşÏ8Ñ¿ø™„2
+m
+java:S1104%"PMake name a static final constant or non-public and provide accessors if needed.(Ë³•­8á¿ø™„2
+q
+java:S1104&"TMake nametext a static final constant or non-public and provide accessors if needed.(è€á8ğ¿ø™„2
+s
+java:S1104'"QMake group a static final constant or non-public and provide accessors if needed.(×ç·‰úÿÿÿÿ8ÿ¿ø™„2
+r
+java:S1104("PMake allt a static final constant or non-public and provide accessors if needed.(á‹¶¢şÿÿÿÿ8Àø™„2
+q
+java:S1104("OMake one a static final constant or non-public and provide accessors if needed.(á‹¶¢şÿÿÿÿ8Àø™„2
+o
+java:S1104)"RMake classs a static final constant or non-public and provide accessors if needed.(°¶ª“8Àø™„2
+r
+java:S1104*"VMake classstext a static final constant or non-public and provide accessors if needed.(ÇÑãW8Àø™„2
+p
+java:S1104+"NMake nc a static final constant or non-public and provide accessors if needed.(Ô°à§ÿÿÿÿÿ8Àø™„2
+t
+java:S1104,"RMake nctext a static final constant or non-public and provide accessors if needed.(îÀß¥ÿÿÿÿÿ8Àø™„2
+r
+java:S1104-"PMake time a static final constant or non-public and provide accessors if needed.(ÒĞ†çúÿÿÿÿ8Àø™„2
+q
+java:S1104."TMake timetext a static final constant or non-public and provide accessors if needed.(‡³•8Àø™„2
+l
+java:S1104/"OMake act a static final constant or non-public and provide accessors if needed.(Ì¿Å˜8Àø™„2
+u
+java:S11040"SMake acttext a static final constant or non-public and provide accessors if needed.(¶­Ñúÿÿÿÿ8Àø™„2
+l
+java:S1104;"OMake rwo a static final constant or non-public and provide accessors if needed.(¡ßùÈ8Àø™„2
+o
+java:S1104<"MMake a a static final constant or non-public and provide accessors if needed.(‘ºûÿÿÿÿ8Àø™„2
+m
+java:S1104="QMake model a static final constant or non-public and provide accessors if needed.(¾Ìı8Àø™„2
+G
+java:S1444%"*Make this "public static name" field final(Ë³•­8Àø™„2
+K
+java:S1444&".Make this "public static nametext" field final(è€á8Àø™„2
+M
+java:S1444'"+Make this "public static group" field final(×ç·‰úÿÿÿÿ8Àø™„2
+L
+java:S1444("*Make this "public static allt" field final(á‹¶¢şÿÿÿÿ8Àø™„2
+K
+java:S1444(")Make this "public static one" field final(á‹¶¢şÿÿÿÿ8Àø™„2
+I
+java:S1444)",Make this "public static classs" field final(°¶ª“8Àø™„2
+L
+java:S1444*"0Make this "public static classstext" field final(ÇÑãW8Àø™„2
+J
+java:S1444+"(Make this "public static nc" field final(Ô°à§ÿÿÿÿÿ8Àø™„2
+N
+java:S1444,",Make this "public static nctext" field final(îÀß¥ÿÿÿÿÿ8Àø™„2
+L
+java:S1444-"*Make this "public static time" field final(ÒĞ†çúÿÿÿÿ8Àø™„2
+K
+java:S1444.".Make this "public static timetext" field final(‡³•8Àø™„2
+F
+java:S1444/")Make this "public static act" field final(Ì¿Å˜8Àø™„2
+O
+java:S14440"-Make this "public static acttext" field final(¶­Ñúÿÿÿÿ8Àø™„2
+F
+java:S1444;")Make this "public static rwo" field final(¡ßùÈ8Àø™„2
+I
+java:S1444<"'Make this "public static a" field final(‘ºûÿÿÿÿ8Àø™„2
+G
+java:S1444="+Make this "public static model" field final(¾Ìı8Àø™„2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şˆîÇ8Àø™„2
+q	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉË¸«ÿÿÿÿÿ8ÁÀø™„2
+r	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã·Â¦úÿÿÿÿ8ÁÀø™„2
+t	java:S116"SRename this field "jPanel_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è½·Äıÿÿÿÿ8ÁÀø™„2
+o	java:S116"SRename this field "jPanel_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶»üŞ8ÁÀø™„2
+t	java:S116"SRename this field "jPanel_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÄÏİÿÿÿÿÿ8ÁÀø™„2
+o	java:S116"SRename this field "jPanel_4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ñ¼ÿ8ÁÀø™„2
+o	java:S116"SRename this field "jPanel_5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Í©—8ÂÀø™„2
+q	java:S116@"URename this field "listener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ª¼“8ÂÀø™„2
+v	java:S116A"URename this field "listener_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§˜õ‡üÿÿÿÿ8ÂÀø™„2
+C
+java:S1170"!Make this final field static too.(ÉË¸«ÿÿÿÿÿ8ÇÀø™„2
+C
+java:S1170"!Make this final field static too.(ã·Â¦úÿÿÿÿ8ÇÀø™„2
+m
+java:S1845º"ORename method "table" to prevent any misunderstanding/clash with field "table".(—ñƒ¬8ÈÀø™„2
+C
+java:S1659("!Declare "one" on a separate line.(á‹¶¢şÿÿÿÿ8ÉÀø™„2
+|
+java:S1450>"ZRemove the "columnModel" field and declare it as a local variable in the relevant methods.(íìÍêıÿÿÿÿ8ÍÀø™„2
+K
+java:S19488")Make "columns" transient or serializable.(ŠÎ£ğùÿÿÿÿ8ÎÀø™„2
+I
+java:S1948@",Make "listener_1" transient or serializable.(¬ª¼“8ÎÀø™„2
+N
+java:S1948A",Make "listener_2" transient or serializable.(§˜õ‡üÿÿÿÿ8ÎÀø™„2
+‚
+java:S1149;"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¡ßùÈ8ÏÀø™„2
+L
+java:S11978"*Move the array designators [] to the type.(ŠÎ£ğùÿÿÿÿ8ÑÀø™„2
+N
+java:S1197<",Move the array designators [][] to the type.(‘ºûÿÿÿÿ8ÒÀø™„2
+i
+java:S3252J"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(ù‘ò8ÓÀø™„2
+H
+java:S2440Y"&Remove this instantiation of "Fronts".(§‚¢êúÿÿÿÿ8ÖÀø™„2
+c
+java:S3252`"AUse static access with "javax.swing.SwingConstants" for "CENTER".(±Ÿ¦ıÿÿÿÿ8ØÀø™„2
+W
+java:S2209a"5Change this instance-reference to a static reference.(Èî‚¿úÿÿÿÿ8ØÀø™„2
+S
+java:S2696r"6Make the enclosing method "static" or remove this set.(¹ˆ¥æ8ÙÀø™„2
+W
+java:S2209s"5Change this instance-reference to a static reference.(¼ö…¶ûÿÿÿÿ8ÚÀø™„2
+X
+java:S2696z"6Make the enclosing method "static" or remove this set.(«©ææúÿÿÿÿ8ÚÀø™„2
+W
+java:S2209}"5Change this instance-reference to a static reference.(¿î¾Äûÿÿÿÿ8ÛÀø™„2
+T
+java:S2696‚"6Make the enclosing method "static" or remove this set.(­¤ì8ÛÀø™„2
+S
+java:S2209ƒ"5Change this instance-reference to a static reference.(×®ë8ÛÀø™„2
+Y
+java:S2696Š"6Make the enclosing method "static" or remove this set.(‡¨™ôşÿÿÿÿ8ÜÀø™„2
+S
+java:S2209‹"5Change this instance-reference to a static reference.(éÀ¡8ÜÀø™„2
+T
+java:S2696’"6Make the enclosing method "static" or remove this set.(«Î§Ê8ÜÀø™„2
+R
+java:S2209“"5Change this instance-reference to a static reference.(ìı¨O8ÜÀø™„2
+T
+java:S2696š"6Make the enclosing method "static" or remove this set.(ˆ“¥»8İÀø™„2
+S
+java:S2209›"5Change this instance-reference to a static reference.(´ö…8İÀø™„2
+T
+java:S2696¢"6Make the enclosing method "static" or remove this set.(˜¦”ë8ŞÀø™„2
+X
+java:S2209¦"5Change this instance-reference to a static reference.(Øàƒëÿÿÿÿÿ8ŞÀø™„2
+T
+java:S2696ª"6Make the enclosing method "static" or remove this set.(Î™8ŞÀø™„2
+X
+java:S2209®"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ8ßÀø™„2
+T
+java:S2696¹"6Make the enclosing method "static" or remove this set.(ä‰³8ßÀø™„2
+Y
+java:S2696º"6Make the enclosing method "static" or remove this set.(‹è¾şÿÿÿÿÿ8àÀø™„2
+X
+java:S2209»"5Change this instance-reference to a static reference.(ó“è«ÿÿÿÿÿ8àÀø™„2
+Y
+java:S2696¿"6Make the enclosing method "static" or remove this set.(ùä»œùÿÿÿÿ8àÀø™„2
+S
+java:S2209Á"5Change this instance-reference to a static reference.(¯êĞü8áÀø™„2
+T
+java:S2696Ä"6Make the enclosing method "static" or remove this set.(‘¢Öõ8áÀø™„2
+Y
+java:S2696Ç"6Make the enclosing method "static" or remove this set.(ÈãâÃùÿÿÿÿ8áÀø™„2
+T
+java:S2696Ê"6Make the enclosing method "static" or remove this set.(ÒïîÙ8âÀø™„2
+Y
+java:S2696Í"6Make the enclosing method "static" or remove this set.(™¸„ûÿÿÿÿ8âÀø™„2
+Y
+java:S2696Ğ"6Make the enclosing method "static" or remove this set.(£İ¿úÿÿÿÿ8âÀø™„2
+T
+java:S2696â"6Make the enclosing method "static" or remove this set.(Ù½¡¡8ãÀø™„2
+X
+java:S2209ã"5Change this instance-reference to a static reference.(µ÷ñııÿÿÿÿ8ãÀø™„2
+T
+java:S2696å"6Make the enclosing method "static" or remove this set.(åâÆ†8ãÀø™„2
+Y
+java:S2696ç"6Make the enclosing method "static" or remove this set.(‡”Ê×ûÿÿÿÿ8ãÀø™„2
+S
+java:S2209è"5Change this instance-reference to a static reference.(İÿäı8äÀø™„2
+Y
+java:S2696ê"6Make the enclosing method "static" or remove this set.(Æ‘áıÿÿÿÿ8äÀø™„2
+T
+java:S2696ì"6Make the enclosing method "static" or remove this set.(¼ã¤“8äÀø™„2
+S
+java:S2209í"5Change this instance-reference to a static reference.(¾œÌ¡8äÀø™„2
+T
+java:S2696ï"6Make the enclosing method "static" or remove this set.(¸Øõ8äÀø™„2
+Y
+java:S2696ñ"6Make the enclosing method "static" or remove this set.(•”€ûÿÿÿÿ8åÀø™„2
+S
+java:S2209ò"5Change this instance-reference to a static reference.(àâÑÔ8åÀø™„2
+S
+java:S2696ô"6Make the enclosing method "static" or remove this set.(Ş´»8åÀø™„2
+k	java:S100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í…8êÀø™„2
+z
+java:S3252¿"\Use static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_AS_NEEDED".(÷êŠù8íÀø™„2
+S
+java:S2696Æ"6Make the enclosing method "static" or remove this set.(Òæâ?8ñÀø™„2
+X
+java:S1161Ç":Add the "@Override" annotation above this method signature(ê¹—é8òÀø™„2
+Y
+java:S2696Í"6Make the enclosing method "static" or remove this set.(øÂ÷¼øÿÿÿÿ8òÀø™„2
+<
+java:S2386Õ"Make member "rwo" "protected".(¤ÓşÏ8óÀø™„2
+T
+java:S2696Õ"6Make the enclosing method "static" or remove this set.(¤ÓşÏ8óÀø™„2
+J
+java:S1128"-Remove this unused import 'Dao.ActInofEvent'.(°ŸùÛ8õÀø™„2
+K
+java:S1068B".Remove this unused "tableModel" private field.(ˆßÄ¯8õÀø™„2
