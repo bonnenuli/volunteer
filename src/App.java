@@ -1,5 +1,8 @@
-import utils.Mysqld;
+import Jframe.ManageUtl.Actsign;
+import Jframe.VolunteerUtl.sign;
 import View.Login;
+import View.Volunteer;
+import utils.Mysqld;
 
 import javax.swing.*;
 
@@ -20,7 +23,7 @@ public class App {
             // 运行校园志愿者管理系统
             //new ManagementSystem();
             // 运行校园志愿者管理系统登录界面
-            new Login();
+            //new Login();
             // 运行校园志愿者管理系统注册界面
             //new Register();
             //更改志愿者信息
@@ -35,8 +38,8 @@ public class App {
             //new ActivityInfo();
             //更改志愿者信息
             //new UpdateAccount();
-            //活动分类管理
-            //new Acttype();
+            //活动签到管理
+            //new Actsign();
             //活动时长管理
             //new Acttime();
             //活动报名管理
@@ -45,7 +48,7 @@ public class App {
             //new Myself();
 
             //志愿者
-            //new Volunteer();
+            new Volunteer();
             //互动论坛
             //new Discussion();
             //活动信息
@@ -56,11 +59,11 @@ public class App {
             //new SchoolNews();
             //活动报名
             //new Apply();
-            //活动类型
-            //new Types();
+            //活动精彩瞬间
+            //new Moments();
+            //活动签到
+            new sign();
             //个人主页
             //new Own();
-
-
         }
 }

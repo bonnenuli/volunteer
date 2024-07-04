@@ -1,11 +1,11 @@
 
 o
-java:S1104"RMake loginA a static final constant or non-public and provide accessors if needed.(–…8®‰îá†2
+java:S1104"RMake loginA a static final constant or non-public and provide accessors if needed.(–…8®‰îá†2
 I
-java:S1444",Make this "public static loginA" field final(–…8³‰îá†2
-L	java:S106"+Replace this use of System.out by a logger.(Æ¦ëµÿÿÿÿÿ8Òîá†2
+java:S1444",Make this "public static loginA" field final(–…8³‰îá†2
+L	java:S106"+Replace this use of System.out by a logger.(Æ¦ëµÿÿÿÿÿ8Òîá†2
 B
-java:S2440"&Remove this instantiation of "Mysqld".(×æçZ8İîá†2
-]	java:S125"<This block of commented-out lines of code should be removed.(ÖÀ—åøÿÿÿÿ8íîá†2
-X	java:S125"<This block of commented-out lines of code should be removed.(ÎÈÌì8õîá†2
-]	java:S1250"<This block of commented-out lines of code should be removed.(Üó·§üÿÿÿÿ8õıÆÄ†2
+java:S2440"&Remove this instantiation of "Mysqld".(×æçZ8İîá†2
+]	java:S125"<This block of commented-out lines of code should be removed.(ÖÀ—åøÿÿÿÿ8íîá†2
+]	java:S125*"<This block of commented-out lines of code should be removed.(½îÃıÿÿÿÿ8Áªû–‡2
+]	java:S1251"<This block of commented-out lines of code should be removed.(Üó·§üÿÿÿÿ8õıÆÄ†2

@@ -1,7 +1,7 @@
 package Dao;
 
 import Jframe.ManageUtl.Acttime;
-import Jframe.ManageUtl.Acttype;
+import Jframe.ManageUtl.Actsign;
 import utils.Mysqld;
 import javax.swing.*;
 import java.awt.*;
@@ -17,15 +17,15 @@ public class ActTypeEvent implements ActionListener {
             button = (JButton) e.getSource();//强制转换类型
             if ("search".equals(button.getName())) {
                 //单条查找
-                String num = Acttype.acttext.getText();
-                boolean allt = Acttype.allt.isSelected();
-                boolean one = Acttype.one.isSelected();
+                String num = Actsign.acttext.getText();
+                boolean allt = Actsign.allt.isSelected();
+                boolean one = Actsign.one.isSelected();
                 if (!one&&!allt) {
-                    Acttype.allt.setSelected(true);
+                    Actsign.allt.setSelected(true);
                 }
-                String nc = Acttype.nctext.getText();
-                String type = Acttype.nctypetext.getText();
-                String act = Acttype.acttext.getText();
+                String nc = Actsign.nctext.getText();
+                String type = Actsign.nctypetext.getText();
+                String act = Actsign.acttext.getText();
                 if (act.equals("")) {
                     if ( nc.equals("") && type.equals("")) {
                         Mysqld.findAllType();
@@ -46,14 +46,14 @@ public class ActTypeEvent implements ActionListener {
                 }
             }
             if ("add".equals(button.getName())) {
-                Acttype.model.setNumRows(0);//将表格数据置为0
-                boolean allt = Acttype.allt.isSelected();
-                String nc = Acttype.nctext.getText();
-                String type = Acttype.nctypetext.getText();
+                Actsign.model.setNumRows(0);//将表格数据置为0
+                boolean allt = Actsign.allt.isSelected();
+                String nc = Actsign.nctext.getText();
+                String type = Actsign.nctypetext.getText();
                 if (nc.equals("")) {
                     JOptionPane.showMessageDialog(null, "活动名称不能为空", "编辑信息", JOptionPane.WARNING_MESSAGE);
                 } else if (allt == true) {
-                    Acttype.allt.setSelected(true);
+                    Actsign.allt.setSelected(true);
                     JOptionPane.showMessageDialog(null, "全部在添加信息时不能被选中", "编辑信息", JOptionPane.WARNING_MESSAGE);
                 } else if (type.equals("")) {
                     JOptionPane.showMessageDialog(null, "活动类型不能为空", "编辑信息", JOptionPane.WARNING_MESSAGE);
@@ -62,13 +62,13 @@ public class ActTypeEvent implements ActionListener {
                     String data[] = new String[2];
                     data[0] = nc;
                     data[1] = type;
-                    Acttype.model.addRow(data);
+                    Actsign.model.addRow(data);
                 }
             }
 
             if ("del".equals(button.getName())) {
                 // 获取用户输入的编号列表
-                String numbers = Acttype.acttext.getText().trim();
+                String numbers = Actsign.acttext.getText().trim();
                 // 检查是否有输入
                 if (numbers.isEmpty()) {
                     JOptionPane.showMessageDialog(null, "条件不能为空", "删除信息", JOptionPane.WARNING_MESSAGE);
@@ -83,10 +83,10 @@ public class ActTypeEvent implements ActionListener {
 
             if ("gai".equals(button.getName())) {
                 //更改数据
-                boolean allt = Acttype.allt.isSelected();
-                String nc = Acttype.nctext.getText();
-                String type = Acttype.nctypetext.getText();
-                String act = Acttype.acttext.getText();
+                boolean allt = Actsign.allt.isSelected();
+                String nc = Actsign.nctext.getText();
+                String type = Actsign.nctypetext.getText();
+                String act = Actsign.acttext.getText();
                 if (!allt) {
                     Acttime.one.setSelected(true);
                 }
@@ -95,7 +95,7 @@ public class ActTypeEvent implements ActionListener {
                 } else if (nc.equals("")) {
                     JOptionPane.showMessageDialog(null, "活动名称不能为空", "编辑信息", JOptionPane.WARNING_MESSAGE);
                 } else if (allt == true) {
-                    Acttype.allt.setSelected(true);
+                    Actsign.allt.setSelected(true);
                     JOptionPane.showMessageDialog(null, "全部在添加信息时不能被选中", "编辑信息", JOptionPane.WARNING_MESSAGE);
                 }  else if (type.equals("")) {
                     JOptionPane.showMessageDialog(null, "活动类型不能为空", "编辑信息", JOptionPane.WARNING_MESSAGE);
@@ -112,7 +112,7 @@ public class ActTypeEvent implements ActionListener {
             while(rt.next()){
                 data[0] = rt.getString(1);
                 data[1] = rt.getString(2);
-                Acttype.model.addRow(data);
+                Actsign.model.addRow(data);
             }
         }catch (SQLException e1){
 
@@ -125,9 +125,9 @@ public class ActTypeEvent implements ActionListener {
             while(rt.next()) {
                 data[0] = rt.getString(1);
                 data[1] = rt.getString(2);
-                Acttype.nctext.setText(data[0]);
-                Acttype.nctypetext.setText(data[1]);
-                Acttype.model.addRow(data);
+                Actsign.nctext.setText(data[0]);
+                Actsign.nctypetext.setText(data[1]);
+                Actsign.model.addRow(data);
             }
         }catch (SQLException e2){
 

@@ -1,4 +1,153 @@
 
+L
+java:S3740<"/Provide the parametrized type for this generic.(¡ßùÈ8°¥‰ã†2
+M
+java:S3740å"/Provide the parametrized type for this generic.(¤ÓşÏ8°¥‰ã†2
+t
+java:S1104"WMake searchField a static final constant or non-public and provide accessors if needed.(™–ê8±¥‰ã†2
+u
+java:S1104"XMake typeComboBox a static final constant or non-public and provide accessors if needed.(Ø©ïç8²¥‰ã†2
+{
+java:S1104"YMake activityTable a static final constant or non-public and provide accessors if needed.(ºŸĞûÿÿÿÿ8²¥‰ã†2
+y
+java:S1104"\Make announcementArea a static final constant or non-public and provide accessors if needed.(èÚ‘Š8²¥‰ã†2
+n
+java:S1104"QMake group a static final constant or non-public and provide accessors if needed.(ºÁ¸ó8²¥‰ã†2
+r
+java:S1104"PMake allt a static final constant or non-public and provide accessors if needed.(»Ãœšûÿÿÿÿ8²¥‰ã†2
+q
+java:S1104"OMake one a static final constant or non-public and provide accessors if needed.(»Ãœšûÿÿÿÿ8³¥‰ã†2
+q
+java:S1104 "TMake activity a static final constant or non-public and provide accessors if needed.(ğØ·8³¥‰ã†2
+z
+java:S1104!"XMake activitytext a static final constant or non-public and provide accessors if needed.(ïÍ½ôûÿÿÿÿ8³¥‰ã†2
+l
+java:S1104""OMake peo a static final constant or non-public and provide accessors if needed.(Õ‹ğ®8³¥‰ã†2
+u
+java:S1104#"SMake peotext a static final constant or non-public and provide accessors if needed.(ìÂ“œıÿÿÿÿ8³¥‰ã†2
+z
+java:S1104$"XMake searchButton a static final constant or non-public and provide accessors if needed.(®áÑ­ûÿÿÿÿ8³¥‰ã†2
+z
+java:S1104%"XMake deleteButton a static final constant or non-public and provide accessors if needed.(œ¢ªâúÿÿÿÿ8´¥‰ã†2
+n
+java:S1104&"RMake first2 a static final constant or non-public and provide accessors if needed.(ÂĞÙO8´¥‰ã†2
+w
+java:S1104'"UMake volunteer a static final constant or non-public and provide accessors if needed.(ÂñôÚÿÿÿÿÿ8´¥‰ã†2
+v
+java:S1104("TMake actforms a static final constant or non-public and provide accessors if needed.(æ¶ó”úÿÿÿÿ8´¥‰ã†2
+q
+java:S1104)"TMake acttimes a static final constant or non-public and provide accessors if needed.(ëáÅ8´¥‰ã†2
+m
+java:S1104*"PMake type a static final constant or non-public and provide accessors if needed.(œé¶¡8´¥‰ã†2
+s
+java:S1104+"VMake activities a static final constant or non-public and provide accessors if needed.(Û‚ğ8µ¥‰ã†2
+n
+java:S1104,"QMake notic a static final constant or non-public and provide accessors if needed.(ûîç´8µ¥‰ã†2
+q
+java:S1104-"TMake personal a static final constant or non-public and provide accessors if needed.(¥ï8µ¥‰ã†2
+p
+java:S1104."NMake nc a static final constant or non-public and provide accessors if needed.(Ô°à§ÿÿÿÿÿ8µ¥‰ã†2
+t
+java:S1104/"RMake nctext a static final constant or non-public and provide accessors if needed.(îÀß¥ÿÿÿÿÿ8µ¥‰ã†2
+q
+java:S11040"TMake applyper a static final constant or non-public and provide accessors if needed.(ÕŸŸÄ8µ¥‰ã†2
+z
+java:S11041"XMake applypertext a static final constant or non-public and provide accessors if needed.(ŠÀ’ùÿÿÿÿ8µ¥‰ã†2
+s
+java:S11042"QMake apply a static final constant or non-public and provide accessors if needed.(ÊÌÈıÿÿÿÿ8¶¥‰ã†2
+w
+java:S11043"UMake applytext a static final constant or non-public and provide accessors if needed.(Æ˜Úıÿÿÿÿ8¶¥‰ã†2
+r
+java:S11044"PMake time a static final constant or non-public and provide accessors if needed.(ÒĞ†çúÿÿÿÿ8¶¥‰ã†2
+q
+java:S11045"TMake timetext a static final constant or non-public and provide accessors if needed.(‡³•8¶¥‰ã†2
+n
+java:S11046"QMake state a static final constant or non-public and provide accessors if needed.(Ü•½Â8¶¥‰ã†2
+w
+java:S11047"UMake statetext a static final constant or non-public and provide accessors if needed.(¶Øöèúÿÿÿÿ8¶¥‰ã†2
+n
+java:S1104:"QMake table a static final constant or non-public and provide accessors if needed.(Ó³ÖÅ8·¥‰ã†2
+l
+java:S1104<"OMake rwo a static final constant or non-public and provide accessors if needed.(¡ßùÈ8·¥‰ã†2
+o
+java:S1104="MMake a a static final constant or non-public and provide accessors if needed.(‘ºûÿÿÿÿ8·¥‰ã†2
+m
+java:S1104>"QMake model a static final constant or non-public and provide accessors if needed.(¾Ìı8·¥‰ã†2
+t
+java:S1104?"WMake columnModel a static final constant or non-public and provide accessors if needed.(«—³±8·¥‰ã†2
+N
+java:S1444"1Make this "public static searchField" field final(™–ê8·¥‰ã†2
+O
+java:S1444"2Make this "public static typeComboBox" field final(Ø©ïç8¸¥‰ã†2
+U
+java:S1444"3Make this "public static activityTable" field final(ºŸĞûÿÿÿÿ8¸¥‰ã†2
+S
+java:S1444"6Make this "public static announcementArea" field final(èÚ‘Š8¸¥‰ã†2
+H
+java:S1444"+Make this "public static group" field final(ºÁ¸ó8¸¥‰ã†2
+L
+java:S1444"*Make this "public static allt" field final(»Ãœšûÿÿÿÿ8¸¥‰ã†2
+K
+java:S1444")Make this "public static one" field final(»Ãœšûÿÿÿÿ8¸¥‰ã†2
+K
+java:S1444 ".Make this "public static activity" field final(ğØ·8¹¥‰ã†2
+T
+java:S1444!"2Make this "public static activitytext" field final(ïÍ½ôûÿÿÿÿ8¹¥‰ã†2
+F
+java:S1444"")Make this "public static peo" field final(Õ‹ğ®8¹¥‰ã†2
+O
+java:S1444#"-Make this "public static peotext" field final(ìÂ“œıÿÿÿÿ8¹¥‰ã†2
+T
+java:S1444$"2Make this "public static searchButton" field final(®áÑ­ûÿÿÿÿ8¹¥‰ã†2
+T
+java:S1444%"2Make this "public static deleteButton" field final(œ¢ªâúÿÿÿÿ8¹¥‰ã†2
+H
+java:S1444&",Make this "public static first2" field final(ÂĞÙO8º¥‰ã†2
+Q
+java:S1444'"/Make this "public static volunteer" field final(ÂñôÚÿÿÿÿÿ8º¥‰ã†2
+P
+java:S1444(".Make this "public static actforms" field final(æ¶ó”úÿÿÿÿ8º¥‰ã†2
+K
+java:S1444)".Make this "public static acttimes" field final(ëáÅ8º¥‰ã†2
+G
+java:S1444*"*Make this "public static type" field final(œé¶¡8º¥‰ã†2
+M
+java:S1444+"0Make this "public static activities" field final(Û‚ğ8º¥‰ã†2
+H
+java:S1444,"+Make this "public static notic" field final(ûîç´8º¥‰ã†2
+K
+java:S1444-".Make this "public static personal" field final(¥ï8»¥‰ã†2
+J
+java:S1444."(Make this "public static nc" field final(Ô°à§ÿÿÿÿÿ8»¥‰ã†2
+N
+java:S1444/",Make this "public static nctext" field final(îÀß¥ÿÿÿÿÿ8»¥‰ã†2
+K
+java:S14440".Make this "public static applyper" field final(ÕŸŸÄ8»¥‰ã†2
+T
+java:S14441"2Make this "public static applypertext" field final(ŠÀ’ùÿÿÿÿ8»¥‰ã†2
+M
+java:S14442"+Make this "public static apply" field final(ÊÌÈıÿÿÿÿ8¼¥‰ã†2
+Q
+java:S14443"/Make this "public static applytext" field final(Æ˜Úıÿÿÿÿ8¼¥‰ã†2
+L
+java:S14444"*Make this "public static time" field final(ÒĞ†çúÿÿÿÿ8¼¥‰ã†2
+K
+java:S14445".Make this "public static timetext" field final(‡³•8¼¥‰ã†2
+H
+java:S14446"+Make this "public static state" field final(Ü•½Â8¼¥‰ã†2
+Q
+java:S14447"/Make this "public static statetext" field final(¶Øöèúÿÿÿÿ8½¥‰ã†2
+H
+java:S1444:"+Make this "public static table" field final(Ó³ÖÅ8½¥‰ã†2
+F
+java:S1444<")Make this "public static rwo" field final(¡ßùÈ8½¥‰ã†2
+I
+java:S1444="'Make this "public static a" field final(‘ºûÿÿÿÿ8½¥‰ã†2
+G
+java:S1444>"+Make this "public static model" field final(¾Ìı8½¥‰ã†2
+N
+java:S1444?"1Make this "public static columnModel" field final(«—³±8½¥‰ã†2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şˆîÇ8¿¥‰ã†2
 t	java:S116"SRename this field "jPanel_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£’³øÿÿÿÿ8µõù„2
 o	java:S116"SRename this field "jPanel_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şûò8µõù„2
 o	java:S116"SRename this field "jPanel_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¢¡õ8µõù„2

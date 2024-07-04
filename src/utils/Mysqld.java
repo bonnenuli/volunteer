@@ -555,7 +555,7 @@ public class Mysqld {
 
     public static void findAllType() {
         PreparedStatement preSql;
-        Acttype.model.setNumRows(0);//将表格数据置为0
+        Actsign.model.setNumRows(0);//将表格数据置为0
         String sqlStr = "select * from acttype";
         try {
             preSql = con.prepareStatement(sqlStr);
@@ -569,7 +569,7 @@ public class Mysqld {
     public static void findConType(String nc, String type) {
         PreparedStatement preSql;
         ResultSet rt = null;
-        Acttype.model.setNumRows(0);
+        Actsign.model.setNumRows(0);
         String sqlStr = "select * from acttype where nc regexp? and type regexp? ";
         try {
             preSql = con.prepareStatement(sqlStr);
@@ -585,7 +585,7 @@ public class Mysqld {
     public static void findOneType(String num) {
         PreparedStatement preSql;
         ResultSet rt = null;
-        Acttype.model.setNumRows(0);
+        Actsign.model.setNumRows(0);
         String sqlStr = "select * from acttype where nc = ?";
         try {
             preSql = con.prepareStatement(sqlStr);

@@ -28,7 +28,7 @@ public class MenageEvent implements ActionListener {
                 new Acttime();
             }
             if ("type".equals(button.getName())) {
-                new Acttype();
+                new Actsign();
             }
             if ("acts".equals(button.getName())) {
                 new ActivityInfo();

@@ -134,19 +134,19 @@ public class Volunteers extends JFrame {
         // 添加图片
         ImageIcon icon = new ImageIcon("C:\\code\\Volunteer\\image\\Volunteer\\3.jpg");
         Image image = icon.getImage(); // 转换为Image对象
-        Image newimg = image.getScaledInstance(2450, 1200, java.awt.Image.SCALE_SMOOTH); // 缩放图片
+        Image newimg = image.getScaledInstance(2450, 1500, java.awt.Image.SCALE_SMOOTH); // 缩放图片
         icon = new ImageIcon(newimg); // 转换回ImageIcon对象
         bgimg = new JLabel(icon);
-        bgimg.setBounds(20, 170, 2450, 1230); // 设置背景图片的位置和大小
+        bgimg.setBounds(20, 10, 2450, 1500); // 设置背景图片的位置和大小
         //初始化第一个框的组件
         jPanel_1 = new javax.swing.JPanel();
         jPanel_1.setLayout(boxLayout);
-        jPanel_1.setBackground(new Color(102, 224, 224, 128));
+        jPanel_1.setOpaque(false);
         jPanel_1.setBounds(20, 10, 2450, 190);
         // 添加页尾组件
         footerLabel = new JLabel("欢迎来到校园志愿者管理系统", JLabel.CENTER);
         footerLabel.setFont(fronts.yt);
-        footerLabel.setBackground(new Color(8, 189, 252));
+        footerLabel.setBackground(Color.white);
         footerLabel.setBounds(800, 50, 900, 70);
         footerLabel.setForeground(new Color(100, 149, 237));
         //初始化第二个框的组件
@@ -308,7 +308,6 @@ public class Volunteers extends JFrame {
         home.setBounds(20,270,150,45);
         hometext = new JTextField(9);
         hometext.setBounds(170,270,350,45);
-
         //
         jPanel_1.add(footerLabel);
         jPanel_2.add(first2);
@@ -341,13 +340,12 @@ public class Volunteers extends JFrame {
         jPanel_5.add(classstext);
         jPanel_5.add(home);
         jPanel_5.add(hometext);
-
         this.add(jPanel_5);
         this.add(jPanel_4);
         this.add(jPanel_3);
         this.add(jPanel_2);
-        this.add(bgimg);
         this.add(jPanel_1);
+        this.add(bgimg);
         this.add(jMenuBar);
         this.setJMenuBar(jMenuBar);
         allEvent();

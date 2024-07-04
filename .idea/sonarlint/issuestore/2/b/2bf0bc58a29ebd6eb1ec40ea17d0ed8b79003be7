@@ -27,6 +27,7 @@ M
 java:S1444!"0Make this "public static exitButton" field final(­´ª°8‰Ñµº…2
 K
 java:S1444"")Make this "public static fan" field final(àÇëŠúÿÿÿÿ8‰Ñµº…2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8Æ©‰ã†2
 l	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍèóÈ8˜Ñµº…2
 r	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¿Þäøÿÿÿÿ8˜Ñµº…2
 v	java:S116%"URename this field "lintener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¬Š±úÿÿÿÿ8˜Ñµº…2

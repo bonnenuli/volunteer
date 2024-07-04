@@ -210,16 +210,16 @@ public class LogiEvent implements ActionListener {
                 new Acttime();
             }
             if ("type".equals(button.getName())) {
-                new Acttype();
+                new Actsign();
             }
             if ("acts".equals(button.getName())) {
                 new ActivityInfo();
             }
             if ("not".equals(button.getName())) {
-                new Acttype();
+                new Actsign();
             }
             if ("per".equals(button.getName())) {
-                new Acttype();
+                new Actsign();
             }
         }catch (Exception e1) {
             //报错他就是一个非按钮的监听

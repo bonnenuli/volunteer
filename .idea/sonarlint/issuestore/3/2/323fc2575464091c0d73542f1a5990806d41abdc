@@ -1,4 +1,41 @@
 
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8øª‰ã†2
+q	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉË¸«ÿÿÿÿÿ8ˆ«‰ã†2
+r	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã·Â¦úÿÿÿÿ8ˆ«‰ã†2
+t	java:S116"SRename this field "jPanel_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è½·Äıÿÿÿÿ8ˆ«‰ã†2
+o	java:S116"SRename this field "jPanel_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶»üŞ8ˆ«‰ã†2
+t	java:S116"SRename this field "jPanel_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÄÏİÿÿÿÿÿ8ˆ«‰ã†2
+q	java:S116$"URename this field "listener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ª¼“8ˆ«‰ã†2
+C
+java:S1170"!Make this final field static too.(ÉË¸«ÿÿÿÿÿ8Œ«‰ã†2
+C
+java:S1170"!Make this final field static too.(ã·Â¦úÿÿÿÿ8Œ«‰ã†2
+I
+java:S1948$",Make "listener_1" transient or serializable.(¬ª¼“8«‰ã†2
+i
+java:S3252-"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(ù‘ò8«‰ã†2
+H
+java:S2440="&Remove this instantiation of "Fronts".(§‚¢êúÿÿÿÿ8‘«‰ã†2
+c
+java:S3252D"AUse static access with "javax.swing.SwingConstants" for "CENTER".(±Ÿ¦ıÿÿÿÿ8“«‰ã†2
+W
+java:S2209E"5Change this instance-reference to a static reference.(Èî‚¿úÿÿÿÿ8“«‰ã†2
+W
+java:S2209W"5Change this instance-reference to a static reference.(ğÀÔùÿÿÿÿ8•«‰ã†2
+R
+java:S2209^"5Change this instance-reference to a static reference.(×®ë8•«‰ã†2
+W
+java:S2209a"5Change this instance-reference to a static reference.(ä¶ªÿÿÿÿÿ8•«‰ã†2
+R
+java:S2209f"5Change this instance-reference to a static reference.(éÀ¡8–«‰ã†2
+Q
+java:S2209k"5Change this instance-reference to a static reference.(ìı¨O8–«‰ã†2
+R
+java:S2209p"5Change this instance-reference to a static reference.(Ø¥¨Í8–«‰ã†2
+W
+java:S2209u"5Change this instance-reference to a static reference.(ç¹„şûÿÿÿÿ8—«‰ã†2
+W
+java:S2209z"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ8—«‰ã†2
 X
 java:S3252ƒ"AUse static access with "javax.swing.SwingConstants" for "CENTER".(„Œïı
 K

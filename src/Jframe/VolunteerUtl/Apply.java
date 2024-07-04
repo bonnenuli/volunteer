@@ -20,8 +20,7 @@ public class Apply extends JFrame {
     javax.swing.JPanel jPanel_3;//放置首页按钮
     //定义标签
     JLabel footerLabel;
-    JButton first1;
-    JButton first2;
+    JButton first2,sin;
     JButton type;
     JButton activity;
     JButton actform;
@@ -73,21 +72,21 @@ public class Apply extends JFrame {
         //初始化第二个框的组件
         jPanel_1 = new javax.swing.JPanel();
         jPanel_1.setLayout(boxLayout);
-        jPanel_1.setBackground(new Color(87, 211, 222, 108));
+        jPanel_1.setOpaque(false);
         jPanel_1.setBounds(20, 10, 2450, 190);
         // 添加页尾组件
         footerLabel = new JLabel("欢迎来到校园志愿者管理系统", JLabel.CENTER);
         footerLabel.setFont(fronts.yt);
-        footerLabel.setBackground(new Color(8, 189, 252));
+        footerLabel.setBackground(Color.white);
         footerLabel.setBounds(800,50,900,70);
         footerLabel.setForeground(new Color(100,149,237));
         // 添加图片
         ImageIcon icon = new ImageIcon("C:\\code\\Volunteer\\image\\Volunteer\\1.jpg");
         Image image = icon.getImage(); // 转换为Image对象
-        Image newimg = image.getScaledInstance(2450, 1200, java.awt.Image.SCALE_SMOOTH); // 缩放图片
+        Image newimg = image.getScaledInstance(2450, 1500, java.awt.Image.SCALE_SMOOTH); // 缩放图片
         icon = new ImageIcon(newimg); // 转换回ImageIcon对象
         bgimg = new JLabel(icon);
-        bgimg.setBounds(20, 170, 2450, 1230); // 设置背景图片的位置和大小
+        bgimg.setBounds(20, 10, 2450, 1500); // 设置背景图片的位置和大小
         //初始化第二个框的组件
         jPanel_2 = new javax.swing.JPanel();
         jPanel_2.setLayout(boxLayout);
@@ -98,7 +97,12 @@ public class Apply extends JFrame {
         first2.setFont(fronts.username);
         first2.setForeground(new Color(23, 153, 234));
         first2.setBackground(Color.cyan);
-        first2.setBounds(550, 10, 100, 90);
+        first2.setBounds(430, 10, 100, 90);
+        sin = new JButton("签到");
+        sin.setFont(fronts.username);
+        sin.setForeground(new Color(23, 153, 234));
+        sin.setBackground(Color.cyan);
+        sin.setBounds(550, 10, 100, 90);
         activity = new JButton("活动信息");
         activity.setForeground(new Color(23, 153, 234));
         activity.setBackground(Color.cyan);
@@ -109,7 +113,7 @@ public class Apply extends JFrame {
         actform.setForeground(new Color(23, 153, 234));
         actform.setBackground(Color.cyan);
         actform.setBounds(870, 10, 180, 90);
-        type = new JButton("活动类型");
+        type = new JButton("精彩瞬间");
         type.setFont(fronts.username);
         type.setForeground(new Color(23, 153, 234));
         type.setBackground(Color.cyan);
@@ -178,6 +182,7 @@ public class Apply extends JFrame {
         //添加按钮
         jPanel_1.add(footerLabel);
         jPanel_2.add(first2);
+        jPanel_2.add(sin);
         jPanel_2.add(activity);
         jPanel_2.add(actform);
         jPanel_2.add(type);
@@ -196,8 +201,8 @@ public class Apply extends JFrame {
         jPanel_3.add(roleComboBox);
         this.add(jPanel_3);
         this.add(jPanel_2);
-        this.add(bgimg);
         this.add(jPanel_1);
+        this.add(bgimg);
         setVisible(true);
         allEvent();
         setAllName();
@@ -214,6 +219,7 @@ public class Apply extends JFrame {
         message.addActionListener(listener_1);
         personal.addActionListener(listener_1);
         apply.addActionListener(listener_1);
+        sin.addActionListener(listener_1);
     }
 
     void setAllName() {
@@ -226,6 +232,7 @@ public class Apply extends JFrame {
         message.setName("message");
         personal.setName("per");
         apply.setName("baom");
+        sin.setName("sin");
     }
 
 }

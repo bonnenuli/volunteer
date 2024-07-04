@@ -94,21 +94,21 @@ public class ActivityInfo extends JFrame {
         //初始化第一个框的组件
         jPanel_1 = new javax.swing.JPanel();
         jPanel_1.setLayout(boxLayout);
-        jPanel_1.setBackground(new Color(102, 224, 224, 128));
+        jPanel_1.setOpaque(false);
         jPanel_1.setBounds(20, 10, 2450, 190);
         // 添加页尾组件
         footerLabel = new JLabel("欢迎来到校园志愿者管理系统", JLabel.CENTER);
         footerLabel.setFont(fronts.yt);
         footerLabel.setBackground(new Color(8, 189, 252));
         footerLabel.setBounds(800, 50, 900, 70);
-        footerLabel.setForeground(new Color(100, 149, 237));
+        footerLabel.setForeground(Color.white);
         // 添加图片
         ImageIcon icon = new ImageIcon("C:\\code\\Volunteer\\image\\Volunteer\\3.jpg");
         Image image = icon.getImage(); // 转换为Image对象
-        Image newimg = image.getScaledInstance(2450, 1200, java.awt.Image.SCALE_SMOOTH); // 缩放图片
+        Image newimg = image.getScaledInstance(2450, 1500, java.awt.Image.SCALE_SMOOTH); // 缩放图片
         icon = new ImageIcon(newimg); // 转换回ImageIcon对象
         bgimg = new JLabel(icon);
-        bgimg.setBounds(20, 170, 2450, 1230); // 设置背景图片的位置和大小
+        bgimg.setBounds(20, 10, 2450, 1500); // 设置背景图片的位置和大小
         //初始化第二个框的组件
         jPanel_2 = new javax.swing.JPanel();
         jPanel_2.setLayout(boxLayout);
@@ -298,8 +298,8 @@ public class ActivityInfo extends JFrame {
         contentPanel.add(jPanel_4);
         contentPanel.add(jPanel_3);
         contentPanel.add(jPanel_2);
-        contentPanel.add(bgimg);
         contentPanel.add(jPanel_1);
+        contentPanel.add(bgimg);
         setVisible(true);
         allEvent();
         Event();

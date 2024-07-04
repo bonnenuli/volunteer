@@ -5,12 +5,10 @@ import Front.Fronts;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableColumnModel;
 import java.awt.*;
 import java.awt.event.ActionListener;
-import java.util.Vector;
 
-public class Types extends JFrame {
+public class Moments extends JFrame {
     //定义一个布局
     FlowLayout flowlayout;
     BoxLayout boxLayout;
@@ -26,7 +24,7 @@ public class Types extends JFrame {
     javax.swing.JPanel jPanel_6;
     //定义标签
     JLabel footerLabel;
-    JButton first1;
+    JButton first1,sin;
     JButton type;
     JButton activity;
     JButton actform;
@@ -49,7 +47,7 @@ public class Types extends JFrame {
     //定义一个监听
     ActionListener listener_1;
 
-    public Types() {
+    public Moments() {
         init();
         // 设置窗口标题
         setTitle("校园志愿者管理系统 - 活动类型");
@@ -79,21 +77,21 @@ public class Types extends JFrame {
         //初始化第一个框的组件
         jPanel_1 = new javax.swing.JPanel();
         jPanel_1.setLayout(boxLayout);
-        jPanel_1.setBackground(new Color(102, 224, 224, 128));
+        jPanel_1.setOpaque(false);
         jPanel_1.setBounds(20, 10, 2450, 190);
         // 添加页尾组件
         footerLabel = new JLabel("欢迎来到校园志愿者管理系统", JLabel.CENTER);
         footerLabel.setFont(fronts.yt);
-        footerLabel.setBackground(new Color(8, 189, 252));
+        footerLabel.setBackground(Color.white);
         footerLabel.setBounds(800, 50, 900, 70);
         footerLabel.setForeground(new Color(100, 149, 237));
         // 添加图片
         ImageIcon icon = new ImageIcon("C:\\code\\Volunteer\\image\\Volunteer\\1.jpg");
         Image image = icon.getImage(); // 转换为Image对象
-        Image newimg = image.getScaledInstance(2450, 1200, java.awt.Image.SCALE_SMOOTH); // 缩放图片
+        Image newimg = image.getScaledInstance(2450, 1500, java.awt.Image.SCALE_SMOOTH); // 缩放图片
         icon = new ImageIcon(newimg); // 转换回ImageIcon对象
         bgimg = new JLabel(icon);
-        bgimg.setBounds(20, 170, 2450, 1230); // 设置背景图片的位置和大小
+        bgimg.setBounds(20, 10, 2450, 1500); // 设置背景图片的位置和大小
         //初始化第二个框的组件
         jPanel_2 = new javax.swing.JPanel();
         jPanel_2.setLayout(boxLayout);
@@ -104,7 +102,12 @@ public class Types extends JFrame {
         first1.setFont(fronts.username);
         first1.setForeground(new Color(23, 153, 234));
         first1.setBackground(Color.cyan);
-        first1.setBounds(550, 10, 100, 90);
+        first1.setBounds(430, 10, 100, 90);
+        sin = new JButton("签到");
+        sin.setFont(fronts.username);
+        sin.setForeground(new Color(23, 153, 234));
+        sin.setBackground(Color.cyan);
+        sin.setBounds(550, 10, 100, 90);
         activity = new JButton("活动信息");
         activity.setForeground(new Color(23, 153, 234));
         activity.setBackground(Color.cyan);
@@ -115,7 +118,7 @@ public class Types extends JFrame {
         actform.setForeground(new Color(23, 153, 234));
         actform.setBackground(Color.cyan);
         actform.setBounds(870, 10, 180, 90);
-        type = new JButton("活动类型");
+        type = new JButton("精彩瞬间");
         type.setFont(fronts.username);
         type.setForeground(new Color(23, 153, 234));
         type.setBackground(Color.cyan);
@@ -146,15 +149,16 @@ public class Types extends JFrame {
         jPanel_3.setLayout(flowlayout);
         jPanel_3.setBackground(Color.cyan);
         jPanel_3.setOpaque(false);
-        jPanel_3.setBounds(570, 450, 1510, 300);
+        jPanel_3.setBounds(470, 450, 1610, 300);
         // 添加四张图片
         // 创建圆形图片网格
-        imageGridPanel = new JPanel(new GridLayout(1, 3, 20, 20));
+        imageGridPanel = new JPanel(new GridLayout(1, 4, 20, 20));
         imageGridPanel.setOpaque(false);
         String[] imagePaths = {
                 "C:\\code\\Volunteer\\image\\Volunteer\\act8.jpg",
                 "C:\\code\\Volunteer\\image\\Volunteer\\act9.jpg",
-                "C:\\code\\Volunteer\\image\\Volunteer\\act10.jpg"
+                "C:\\code\\Volunteer\\image\\Volunteer\\act10.jpg",
+                "C:\\code\\Volunteer\\image\\Volunteer\\act7.jpg"
         };
 
         for (String imagePath : imagePaths) {
@@ -174,11 +178,11 @@ public class Types extends JFrame {
         jPanel_4.setLayout(flowlayout);
         jPanel_4.setBackground(Color.cyan);
         jPanel_4.setOpaque(false);
-        jPanel_4.setBounds(570, 760, 1510, 70);
-        labelPanel = new JPanel(new GridLayout(1, 3, 20, 20)); // 修改变量名
+        jPanel_4.setBounds(470, 760, 1610, 70);
+        labelPanel = new JPanel(new GridLayout(1, 4, 20, 20)); // 修改变量名
         labelPanel.setOpaque(false);
         String[] label = { // 修改数组变量名
-                "户外素质拓展", "培养创新思维，塑造艺术人生", "童年乐章，快乐启航"
+                "户外素质拓展", "培养创新思维，塑造艺术人生", "童年乐章，快乐启航","中国历代绘画大系"
         };
         // 添加标签
         for (String labelText : label) {
@@ -193,15 +197,16 @@ public class Types extends JFrame {
         jPanel_5.setLayout(flowlayout);
         jPanel_5.setBackground(Color.cyan);
         jPanel_5.setOpaque(false);
-        jPanel_5.setBounds(570, 880, 1510, 300);
+        jPanel_5.setBounds(470, 880, 1610, 300);
         // 添加四张图片
         // 创建圆形图片网格
-        imGridPanel = new JPanel(new GridLayout(1, 3, 20, 20));
+        imGridPanel = new JPanel(new GridLayout(1, 4, 20, 20));
         imGridPanel.setOpaque(false);
         String[] imPaths = {
+                "C:\\code\\Volunteer\\image\\Volunteer\\act4.jpg",
                 "C:\\code\\Volunteer\\image\\Volunteer\\act11.jpg",
                 "C:\\code\\Volunteer\\image\\Volunteer\\act12.jpg",
-                "C:\\code\\Volunteer\\image\\Volunteer\\act13.jpg"
+                "C:\\code\\Volunteer\\image\\Volunteer\\act6.jpg"
         };
 
         for (String imPath : imPaths) {
@@ -221,11 +226,11 @@ public class Types extends JFrame {
         jPanel_6.setLayout(flowlayout);
         jPanel_6.setBackground(Color.cyan);
         jPanel_6.setOpaque(false);
-        jPanel_6.setBounds(570, 1190, 1510, 50);
-        labelsPanel = new JPanel(new GridLayout(1, 3, 20, 20)); // 修改变量名
+        jPanel_6.setBounds(470, 1190, 1610, 50);
+        labelsPanel = new JPanel(new GridLayout(1, 4, 20, 20)); // 修改变量名
         labelsPanel.setOpaque(false);
         String[] labelsTexts = { // 修改数组变量名
-                "文明交通伴我行", "节粮倡议宣讲", "传统文化，匠心独运"
+                "文明交通伴我行", "节粮倡议宣讲", "传统文化，匠心独运","清风校园"
         };
         // 添加标签
         for (String labelsText : labelsTexts) {
@@ -238,6 +243,7 @@ public class Types extends JFrame {
         // 添加按钮
         jPanel_1.add(footerLabel);
         jPanel_2.add(first1);
+        jPanel_2.add(sin);
         jPanel_2.add(activity);
         jPanel_2.add(actform);
         jPanel_2.add(type);
@@ -255,8 +261,8 @@ public class Types extends JFrame {
         this.add(jPanel_4);
         this.add(jPanel_3);
         this.add(jPanel_2);
-        this.add(bgimg);
         this.add(jPanel_1);
+        this.add(bgimg);
         setVisible(true);
         allEvent();
         setAllName();
@@ -272,7 +278,7 @@ public class Types extends JFrame {
         news.addActionListener(listener_1);
         message.addActionListener(listener_1);
         personal.addActionListener(listener_1);
-
+        sin.addActionListener(listener_1);
     }
 
     void setAllName() {
@@ -284,6 +290,7 @@ public class Types extends JFrame {
         news.setName("new");
         message.setName("message");
         personal.setName("per");
+        sin.setName("sin");
     }
 
 }
