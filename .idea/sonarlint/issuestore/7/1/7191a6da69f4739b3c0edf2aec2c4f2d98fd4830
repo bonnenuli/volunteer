@@ -14,71 +14,71 @@ java:S1444")Make this "public static con" field final(›γ›Κ8‚›¤…2
 r
 java:S2095„"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
 r
-java:S2095π"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+java:S2095Ζ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
 r
 java:S2095ψ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
 r
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095 "OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095ή"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-i
-java:S2095e"GUse try-with-resources or close this "Statement" in a "finally" clause.(έ”•ϊÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095³"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095Ζ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095μ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8ªΎΊ¦…2
-r
-java:S2095ÿ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095Β"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095τ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095Ώ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095”"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-k
-java:S20951"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(κ&8‚ƒ›¤…2
-r
-java:S2095Ζ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095Ο"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095η"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095΅"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095­"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095…"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
 java:S2095Ψ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-i
-java:S2095N"GUse try-with-resources or close this "Statement" in a "finally" clause.(έ”•ϊÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095―"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095ζ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095Ε"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095¥"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8ªΎΊ¦…2
-r
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
-r
-java:S2095­"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8ªΎΊ¦…2
-r
-java:S2095±"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
 r
 java:S2095ώ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
 r
+java:S2095±"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+i
+java:S2095N"GUse try-with-resources or close this "Statement" in a "finally" clause.(έ”•ϊÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095Β"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095­"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8ªΎΊ¦…2
+r
+java:S2095π"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095…"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+i
+java:S2095e"GUse try-with-resources or close this "Statement" in a "finally" clause.(έ”•ϊÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095­"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095¥"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8ªΎΊ¦…2
+r
+java:S2095Ζ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+k
+java:S20951"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(κ&8‚ƒ›¤…2
+r
+java:S2095η"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095ή"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095―"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095΅"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095 "OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095Ε"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
 java:S2095Σ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095ζ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095Ο"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095³"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095”"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095ÿ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095τ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
+r
+java:S2095μ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8ªΎΊ¦…2
+r
+java:S2095Ώ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
 r
 java:S2095Ψ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘€Ξ„ύÿÿÿÿ8‚ƒ›¤…2
 {	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ª£απϊÿÿÿÿ8‚ƒ›¤…2

@@ -48,7 +48,7 @@ public class App {
             //new Myself();
 
             //志愿者
-            new Volunteer();
+            //new Volunteer();
             //互动论坛
             //new Discussion();
             //活动信息

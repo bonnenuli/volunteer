@@ -2,10 +2,16 @@ package Jframe.VolunteerUtl;
 
 import Dao.VolEvent;
 import Front.Fronts;
+import utils.MainFrame;
+import View.VolunteerSign;
+import utils.Camera;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+
 public class sign extends JFrame {
         //定义一个布局
         FlowLayout flowlayout;
@@ -19,20 +25,20 @@ public class sign extends JFrame {
         javax.swing.JPanel jPanel_3;//放置首页按钮
         //定义标签
         JLabel footerLabel;
-        JButton first1,sin;
-        JButton type;
-        JButton activity;
-        JButton actform;
-        JButton notic;
-        JButton news;
-        JButton message;
-        JButton personal;
+        JButton first1,sin,type,activity,actform,notic,news,message,personal;
         JLabel bgimg;
         // 定义一个面板
         JPanel contentPanel;
+        private MainFrame parent;
+        private JToggleButton daka;
+        private JTextArea area;
+        private JPanel center;
+        private VolunteerSign code;
+        private DetectFaceThread detectFaceThread;
         //定义一个监听
         ActionListener listener_1;
         public sign() {
+            this.parent = parent;
             init();
             // 设置窗口标题
             setTitle("校园志愿者管理系统 - 活动签到");
@@ -42,6 +48,7 @@ public class sign extends JFrame {
             setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);//设置默认关闭方式
             setLocationRelativeTo(null); // 设置窗口居中
             validate();//让组件生效
+            addListener();
         }
         void init() {
             //定义一个布局
@@ -129,10 +136,22 @@ public class sign extends JFrame {
             jPanel_3.setLayout(boxLayout);
             jPanel_3.setBackground(Color.cyan);
             jPanel_3.setOpaque(false);
-            jPanel_3.setBorder(BorderFactory.createTitledBorder("搜索框"));
-            jPanel_3.setBounds(370, 550, 2050, 750);
-
-
+            jPanel_3.setBorder(BorderFactory.createTitledBorder(""));
+            jPanel_3.setBounds(350, 540, 1650, 750);
+            area = new JTextArea();
+            area.setEditable(false);
+            area.setFont(new Font("宋体", Font.BOLD, 32));
+            JScrollPane scrollPane = new JScrollPane(area);
+            scrollPane.setBounds(100, 92, 660, 450);
+            daka = new JToggleButton("签到打卡");
+            daka.setFont(new Font("宋体", Font.BOLD, 40));
+            daka.setForeground(new Color(23, 153, 234));
+            daka.setBackground(Color.cyan);
+            daka.setBounds(580, 600, 550, 120);
+            JPanel blackPanel = new JPanel();
+            blackPanel.setBounds(952, 92, 660, 450);
+            blackPanel.setBackground(Color.BLACK);
+            setLayout(new BorderLayout());
 
             //添加按钮
             jPanel_1.add(footerLabel);
@@ -145,6 +164,9 @@ public class sign extends JFrame {
             jPanel_2.add(news);
             jPanel_2.add(message);
             jPanel_2.add(personal);
+            jPanel_3.add(scrollPane);
+            jPanel_3.add(daka);
+            jPanel_3.add(blackPanel);
             this.add(jPanel_3);
             this.add(jPanel_2);
             this.add(jPanel_1);
@@ -177,4 +199,73 @@ public class sign extends JFrame {
             personal.setName("per");
             sin.setName("sin");
         }
+    private void addListener() {
+        daka.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (daka.isSelected()) {
+                    area.append("正在开启摄像头，请稍后。。。\n");
+                    daka.setEnabled(false);
+                    daka.setText("关闭摄像头");
+                    Thread cameraThread = new Thread()
+                    {
+                        public void run()
+                        {
+                            if (Camera.startCamera())
+                            {
+                                area.append("请面向摄像头打卡。\n");
+                                daka.setEnabled(true);
+                                JPanel cameraPanel = Camera.getCameraPanel();
+                                cameraPanel.setBounds(952, 92, 660, 450);
+                                jPanel_3.add(cameraPanel);
+                            }else
+                            {
+                                JOptionPane.showMessageDialog(parent,"未检测到摄像头！\n");
+                                releaseCamera();
+                                return;
+                            }
+                        }
+                    };
+                    cameraThread.start();
+                    detectFaceThread = new sign.DetectFaceThread();
+                    detectFaceThread.start();
+                } else {
+                    releaseCamera();
+                }
+            }
+        });
+    }
+
+    private void releaseCamera() {
+        Camera.releaseCamera();
+        area.append("摄像头已关闭\n");
+        if (detectFaceThread!=null){detectFaceThread.stop();}
+        daka.setText("打   卡");
+        daka.setSelected(false);
+        daka.setEnabled(true);
+    }
+
+    private class DetectFaceThread extends Thread {
+        boolean work = true;
+        public void run() {
+            while (work) {
+                if (Camera.cameraIsOpen()) {
+                    BufferedImage frame = Camera.getCameraFrame();
+                    if (frame != null && code != null) {
+                        VolunteerSign v = VolunteerSign.getEmp(code);
+                        VolunteerSign.addClockInRecord(v);
+                        area.append(v.getName() + "打卡成功\n");
+                        releaseCamera();
+                    }
+                }
+            }
+        }
+    }
+
+    public synchronized void stop() {
+        if (detectFaceThread != null) {
+            detectFaceThread.work = false;
+            detectFaceThread = null;
+        }
+    }
 }

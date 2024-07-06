@@ -27,6 +27,8 @@ j	java:S116."URename this field "listener_1" to match the regular expression '
 java:S1170"!Make this final field static too.(ÉË¸«ÿÿÿÿÿ
 <
 java:S1170"!Make this final field static too.(ã·Â¦úÿÿÿÿ
+>
+java:S1659"!Declare "sin" on a separate line.(ÚÅŸ8éí½ò‡2
 B
 java:S1948.",Make "listener_1" transient or serializable.(¬ª¼“
 b
@@ -40,36 +42,38 @@ java:S2209M"5Change this instance-reference to a static reference.(Èî‚¿úÿÿÿÿ
 P
 java:S2209_"5Change this instance-reference to a static reference.(¼ö…¶ûÿÿÿÿ
 K
-java:S2209f"5Change this instance-reference to a static reference.(×®ë
-P
-java:S2209i"5Change this instance-reference to a static reference.(ä¶ªÿÿÿÿÿ
+java:S2209d"5Change this instance-reference to a static reference.(ÍÏïÚ
 K
-java:S2209n"5Change this instance-reference to a static reference.(éÀ¡
+java:S2209k"5Change this instance-reference to a static reference.(×®ë
+P
+java:S2209n"5Change this instance-reference to a static reference.(ä¶ªÿÿÿÿÿ
+K
+java:S2209s"5Change this instance-reference to a static reference.(éÀ¡
 J
-java:S2209s"5Change this instance-reference to a static reference.(ìı¨O
+java:S2209x"5Change this instance-reference to a static reference.(ìı¨O
 K
-java:S2209x"5Change this instance-reference to a static reference.(Ø¥¨Í
-P
-java:S2209}"5Change this instance-reference to a static reference.(ç¹„şûÿÿÿÿ
+java:S2209}"5Change this instance-reference to a static reference.(Ø¥¨Í
 Q
-java:S2209‚"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ
+java:S2209‚"5Change this instance-reference to a static reference.(ç¹„şûÿÿÿÿ
+Q
+java:S2209‡"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ
 R
-java:S2696"6Make the enclosing method "static" or remove this set.(¨¯®øÿÿÿÿ
+java:S2696‘"6Make the enclosing method "static" or remove this set.(¨¯®øÿÿÿÿ
 Q
-java:S2209"5Change this instance-reference to a static reference.(íÀàçøÿÿÿÿ
+java:S2209’"5Change this instance-reference to a static reference.(íÀàçøÿÿÿÿ
 M
-java:S2696”"6Make the enclosing method "static" or remove this set.(ŒĞç
+java:S2696—"6Make the enclosing method "static" or remove this set.(ŒĞç
 L
-java:S2209•"5Change this instance-reference to a static reference.(ø¹¯â
+java:S2209˜"5Change this instance-reference to a static reference.(ø¹¯â
 M
-java:S2696š"6Make the enclosing method "static" or remove this set.(ÑûÁ
+java:S2696"6Make the enclosing method "static" or remove this set.(ÑûÁ
 Q
-java:S2209›"5Change this instance-reference to a static reference.(²ÕÕÂøÿÿÿÿ
+java:S2209"5Change this instance-reference to a static reference.(²ÕÕÂøÿÿÿÿ
 M
-java:S2696 "6Make the enclosing method "static" or remove this set.(îæÀ÷
+java:S2696£"6Make the enclosing method "static" or remove this set.(îæÀ÷
 Q
-java:S2209¡"5Change this instance-reference to a static reference.(œã¤ÿÿÿÿÿ
-Q
-java:S2209¬"5Change this instance-reference to a static reference.(ğÀÔùÿÿÿÿ
-L
-java:S2209´"5Change this instance-reference to a static reference.(ıìÆ˜
+java:S2209¤"5Change this instance-reference to a static reference.(œã¤ÿÿÿÿÿ
+X
+java:S2209¯"5Change this instance-reference to a static reference.(ğÀÔùÿÿÿÿ8Í¼ò‡2
+S
+java:S2209·"5Change this instance-reference to a static reference.(ıìÆ˜8Í¼ò‡2

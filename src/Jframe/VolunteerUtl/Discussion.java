@@ -132,9 +132,6 @@ public class Discussion extends JFrame {
         jPanel_3.setOpaque(false);
         jPanel_3.setBorder(BorderFactory.createTitledBorder("搜索框"));
         jPanel_3.setBounds(370, 550, 2050, 750);
-
-
-
         //添加按钮
         jPanel_1.add(footerLabel);
         jPanel_2.add(first1);
@@ -153,7 +150,6 @@ public class Discussion extends JFrame {
         allEvent();
         setAllName();
     }
-
     void allEvent() {
         listener_1 = new VolEvent();
         first1.addActionListener(listener_1);
@@ -166,7 +162,6 @@ public class Discussion extends JFrame {
         personal.addActionListener(listener_1);
         sin.addActionListener(listener_1);
     }
-
     void setAllName(){
         first1.setName("first");
         type.setName("type");

@@ -1,0 +1,60 @@
+
+g
+java:S1104"QMake title a static final constant or non-public and provide accessors if needed.(æ´î‡
+j
+java:S1104"TMake username a static final constant or non-public and provide accessors if needed.(Œ¶ı„
+s
+java:S1104"XMake usernametext a static final constant or non-public and provide accessors if needed.(¤”ã”ûÿÿÿÿ
+l
+java:S1104	"QMake login a static final constant or non-public and provide accessors if needed.(åÖ«Æıÿÿÿÿ
+j
+java:S1104
+"TMake register a static final constant or non-public and provide accessors if needed.(¾ÃÊ
+h
+java:S1104"RMake remind a static final constant or non-public and provide accessors if needed.(ŞÒ«
+f
+java:S1104"PMake sear a static final constant or non-public and provide accessors if needed.(Áëâ¼
+j
+java:S1104"OMake zhu a static final constant or non-public and provide accessors if needed.(‘Ù¸éùÿÿÿÿ
+i
+java:S1104"NMake yt a static final constant or non-public and provide accessors if needed.(“•»»ûÿÿÿÿ
+A
+java:S1444"+Make this "public static title" field final(æ´î‡
+D
+java:S1444".Make this "public static username" field final(Œ¶ı„
+M
+java:S1444"2Make this "public static usernametext" field final(¤”ã”ûÿÿÿÿ
+F
+java:S1444	"+Make this "public static login" field final(åÖ«Æıÿÿÿÿ
+D
+java:S1444
+".Make this "public static register" field final(¾ÃÊ
+B
+java:S1444",Make this "public static remind" field final(ŞÒ«
+@
+java:S1444"*Make this "public static sear" field final(Áëâ¼
+D
+java:S1444")Make this "public static zhu" field final(‘Ù¸éùÿÿÿÿ
+C
+java:S1444"(Make this "public static yt" field final(“•»»ûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œì‘
+8
+java:S1118"Hide this public constructor.(ª‰ë¦ıÿÿÿÿ
+8
+java:S3010""Remove this assignment of "title".(í¼¼û
+@
+java:S3010"%Remove this assignment of "username".(Ğ”ÑÚıÿÿÿÿ
+D
+java:S3010")Remove this assignment of "usernametext".(˜Æºæøÿÿÿÿ
+8
+java:S3010""Remove this assignment of "login".(¯Äÿ·
+;
+java:S3010"%Remove this assignment of "register".(°äŞ®
+9
+java:S3010"#Remove this assignment of "remind".(Ğ¢Ü©
+<
+java:S3010"!Remove this assignment of "sear".(ñÁ¡šûÿÿÿÿ
+6
+java:S3010" Remove this assignment of "zhu".(ÏØÔ
+5
+java:S3010"Remove this assignment of "yt".(§òç

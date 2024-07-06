@@ -1,0 +1,21 @@
+
+k	java:S117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïı…üÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şˆîÇ
+C
+java:S11721"-Remove this unused method parameter "parent".(Ç„çÉ
+V	java:S1252"<This block of commented-out lines of code should be removed.(‹Ÿ¤Ïúÿÿÿÿ
+P
+java:S1481Y"5Remove this unused "ManagementSystem" local variable.(Ïı…üÿÿÿÿ
+Z
+java:S1854f"?Remove this useless assignment to local variable "phoneNumber".(Õª¹˜ûÿÿÿÿ
+L
+java:S1854e"6Remove this useless assignment to local variable "id".(‰Åƒâ
+S
+java:S1854d"8Remove this useless assignment to local variable "name".(¯òòİúÿÿÿÿ
+D
+java:S1481d")Remove this unused "name" local variable.(¯òòİúÿÿÿÿ
+=
+java:S1481e"'Remove this unused "id" local variable.(‰Åƒâ
+K
+java:S1481f"0Remove this unused "phoneNumber" local variable.(Õª¹˜ûÿÿÿÿ
+V	java:S125t"<This block of commented-out lines of code should be removed.(½™ø™ûÿÿÿÿ

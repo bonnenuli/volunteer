@@ -1,0 +1,19 @@
+
+s
+java:S1104"XMake passwordtext a static final constant or non-public and provide accessors if needed.(×Ë£Éüÿÿÿÿ
+M
+java:S1444"2Make this "public static passwordtext" field final(×Ë£Éüÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şˆîÇ
+e	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¬†ğ
+k	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÉ×ÿÿÿÿÿ
+j	java:S116"URename this field "listener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ª¼“
+7
+java:S1170"!Make this final field static too.(­¬†ğ
+<
+java:S1170"!Make this final field static too.(æÉ×ÿÿÿÿÿ
+B
+java:S1948",Make "listener_1" transient or serializable.(¬ª¼“
+b
+java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(ù‘ò
+L
+java:S2696-"6Make the enclosing method "static" or remove this set.(õŸÌ˜

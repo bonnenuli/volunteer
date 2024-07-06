@@ -2,7 +2,7 @@
 L
 java:S3740J"/Provide the parametrized type for this generic.(Ò´£§8Ó¥»ö„2
 M
-java:S3740ƒ"/Provide the parametrized type for this generic.(¤ÓşÏ8Ô¥»ö„2
+java:S3740"/Provide the parametrized type for this generic.(¤ÓşÏ8Ô¥»ö„2
 n
 java:S1104)"RMake first2 a static final constant or non-public and provide accessors if needed.(ÂĞÙO8Õ¥»ö„2
 w
@@ -128,7 +128,7 @@ java:S1170"!Make this final field static too.(ÉË¸«ÿÿÿÿÿ8¨¦»ö„2
 >
 java:S1170"!Make this final field static too.(¶Ò¿ñ8¨¦»ö„2
 m
-java:S1845ç"ORename method "table" to prevent any misunderstanding/clash with field "table".(—ñƒ¬8ª¦»ö„2
+java:S1845å"ORename method "table" to prevent any misunderstanding/clash with field "table".(—ñƒ¬8ª¦»ö„2
 d
 java:S1659"BDeclare "item2" and all following declarations on a separate line.(ö×èúøÿÿÿÿ8ª¦»ö„2
 B
@@ -246,13 +246,13 @@ java:S2209³"5Change this instance-reference to a static reference.(È¥ÿÔ8¨§»ö„
 T
 java:S2696µ"6Make the enclosing method "static" or remove this set.(—ÄÂÃ8¨§»ö„2
 z
-java:S3252ì"\Use static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_AS_NEEDED".(÷êŠù8²§»ö„2
+java:S3252ê"\Use static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_AS_NEEDED".(÷êŠù8²§»ö„2
 S
-java:S2696ô"6Make the enclosing method "static" or remove this set.(Òæâ?8»§»ö„2
+java:S2696ò"6Make the enclosing method "static" or remove this set.(Òæâ?8»§»ö„2
 X
-java:S1161õ":Add the "@Override" annotation above this method signature(ê¹—é8¼§»ö„2
+java:S1161ó":Add the "@Override" annotation above this method signature(ê¹—é8¼§»ö„2
 Y
-java:S2696û"6Make the enclosing method "static" or remove this set.(øÂ÷¼øÿÿÿÿ8¼§»ö„2
+java:S2696ù"6Make the enclosing method "static" or remove this set.(øÂ÷¼øÿÿÿÿ8¼§»ö„2
 T
-java:S2696ƒ"6Make the enclosing method "static" or remove this set.(¤ÓşÏ8½§»ö„2
-k	java:S100”"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í…8Á§»ö„2
+java:S2696"6Make the enclosing method "static" or remove this set.(¤ÓşÏ8½§»ö„2
+k	java:S100’"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í…8Á§»ö„2

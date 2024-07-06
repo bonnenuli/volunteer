@@ -10,6 +10,8 @@ j	java:S116#"URename this field "listener_1" to match the regular expression '
 java:S1170"!Make this final field static too.(ÉË¸«ÿÿÿÿÿ
 <
 java:S1170"!Make this final field static too.(ã·Â¦úÿÿÿÿ
+>
+java:S1659"!Declare "sin" on a separate line.(ÚÅŸ8åöÈò‡2
 B
 java:S1948#",Make "listener_1" transient or serializable.(¬ª¼“
 b
@@ -23,16 +25,18 @@ java:S2209B"5Change this instance-reference to a static reference.(Èî‚¿úÿÿÿÿ
 P
 java:S2209T"5Change this instance-reference to a static reference.(ğÀÔùÿÿÿÿ
 K
-java:S2209["5Change this instance-reference to a static reference.(×®ë
-P
-java:S2209^"5Change this instance-reference to a static reference.(ä¶ªÿÿÿÿÿ
+java:S2209Y"5Change this instance-reference to a static reference.(ÍÏïÚ
 K
-java:S2209c"5Change this instance-reference to a static reference.(éÀ¡
+java:S2209`"5Change this instance-reference to a static reference.(×®ë
+P
+java:S2209c"5Change this instance-reference to a static reference.(ä¶ªÿÿÿÿÿ
+K
+java:S2209h"5Change this instance-reference to a static reference.(éÀ¡
 J
-java:S2209h"5Change this instance-reference to a static reference.(ìı¨O
+java:S2209m"5Change this instance-reference to a static reference.(ìı¨O
 K
-java:S2209m"5Change this instance-reference to a static reference.(Ø¥¨Í
+java:S2209r"5Change this instance-reference to a static reference.(Ø¥¨Í
 P
-java:S2209r"5Change this instance-reference to a static reference.(ç¹„şûÿÿÿÿ
-P
-java:S2209w"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ
+java:S2209w"5Change this instance-reference to a static reference.(ç¹„şûÿÿÿÿ
+W
+java:S2209|"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ8ãªÈò‡2

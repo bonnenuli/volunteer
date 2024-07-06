@@ -1,0 +1,43 @@
+
+n	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ö³”Äşÿÿÿÿ8Óıİò‡2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü€ü8Õıİò‡2
+q	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉË¸«ÿÿÿÿÿ8èıİò‡2
+r	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã·Â¦úÿÿÿÿ8èıİò‡2
+t	java:S116"SRename this field "jPanel_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è½·Äıÿÿÿÿ8èıİò‡2
+o	java:S116"SRename this field "jPanel_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶»üŞ8èıİò‡2
+t	java:S116"SRename this field "jPanel_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÄÏİÿÿÿÿÿ8èıİò‡2
+q	java:S116""URename this field "listener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ª¼“8èıİò‡2
+C
+java:S1170"!Make this final field static too.(ÉË¸«ÿÿÿÿÿ8íıİò‡2
+C
+java:S1170"!Make this final field static too.(ã·Â¦úÿÿÿÿ8íıİò‡2
+>
+java:S1659"!Declare "sin" on a separate line.(ÚÅŸ8îıİò‡2
+I
+java:S1948"",Make "listener_1" transient or serializable.(¬ª¼“8îıİò‡2
+i
+java:S3252*"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(ù‘ò8ñıİò‡2
+H
+java:S24409"&Remove this instantiation of "Fronts".(§‚¢êúÿÿÿÿ8óıİò‡2
+c
+java:S3252@"AUse static access with "javax.swing.SwingConstants" for "CENTER".(±Ÿ¦ıÿÿÿÿ8ôıİò‡2
+W
+java:S2209A"5Change this instance-reference to a static reference.(Èî‚¿úÿÿÿÿ8ôıİò‡2
+W
+java:S2209S"5Change this instance-reference to a static reference.(ğÀÔùÿÿÿÿ8÷ıİò‡2
+R
+java:S2209X"5Change this instance-reference to a static reference.(ÍÏïÚ8øıİò‡2
+R
+java:S2209_"5Change this instance-reference to a static reference.(×®ë8øıİò‡2
+W
+java:S2209b"5Change this instance-reference to a static reference.(ä¶ªÿÿÿÿÿ8øıİò‡2
+R
+java:S2209g"5Change this instance-reference to a static reference.(éÀ¡8øıİò‡2
+Q
+java:S2209l"5Change this instance-reference to a static reference.(ìı¨O8ùıİò‡2
+R
+java:S2209q"5Change this instance-reference to a static reference.(Ø¥¨Í8ùıİò‡2
+W
+java:S2209v"5Change this instance-reference to a static reference.(ç¹„şûÿÿÿÿ8ùıİò‡2
+W
+java:S2209{"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ8ùıİò‡2

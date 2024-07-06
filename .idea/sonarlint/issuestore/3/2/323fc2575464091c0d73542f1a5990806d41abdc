@@ -10,6 +10,8 @@ C
 java:S1170"!Make this final field static too.(ÉË¸«ÿÿÿÿÿ8Œ«‰ã†2
 C
 java:S1170"!Make this final field static too.(ã·Â¦úÿÿÿÿ8Œ«‰ã†2
+>
+java:S1659"!Declare "sin" on a separate line.(ÚÅŸ8¢¶´ò‡2
 I
 java:S1948$",Make "listener_1" transient or serializable.(¬ª¼“8«‰ã†2
 i
@@ -23,20 +25,22 @@ java:S2209E"5Change this instance-reference to a static reference.(Èî‚¿úÿÿÿÿ8“
 W
 java:S2209W"5Change this instance-reference to a static reference.(ğÀÔùÿÿÿÿ8•«‰ã†2
 R
-java:S2209^"5Change this instance-reference to a static reference.(×®ë8•«‰ã†2
-W
-java:S2209a"5Change this instance-reference to a static reference.(ä¶ªÿÿÿÿÿ8•«‰ã†2
+java:S2209\"5Change this instance-reference to a static reference.(ÍÏïÚ8•«‰ã†2
 R
-java:S2209f"5Change this instance-reference to a static reference.(éÀ¡8–«‰ã†2
+java:S2209c"5Change this instance-reference to a static reference.(×®ë8–«‰ã†2
+W
+java:S2209f"5Change this instance-reference to a static reference.(ä¶ªÿÿÿÿÿ8–«‰ã†2
+R
+java:S2209k"5Change this instance-reference to a static reference.(éÀ¡8–«‰ã†2
 Q
-java:S2209k"5Change this instance-reference to a static reference.(ìı¨O8–«‰ã†2
+java:S2209p"5Change this instance-reference to a static reference.(ìı¨O8—«‰ã†2
 R
-java:S2209p"5Change this instance-reference to a static reference.(Ø¥¨Í8–«‰ã†2
+java:S2209u"5Change this instance-reference to a static reference.(Ø¥¨Í8—«‰ã†2
+P
+java:S2209z"5Change this instance-reference to a static reference.(ç¹„şûÿÿÿÿ
 W
-java:S2209u"5Change this instance-reference to a static reference.(ç¹„şûÿÿÿÿ8—«‰ã†2
-W
-java:S2209z"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ8—«‰ã†2
+java:S2209"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ8ˆÀ³ò‡2
 X
-java:S3252ƒ"AUse static access with "javax.swing.SwingConstants" for "CENTER".(„Œïı
-K
-java:S2209„"5Change this instance-reference to a static reference.(£Ş×i
+java:S3252ˆ"AUse static access with "javax.swing.SwingConstants" for "CENTER".(„Œïı
+R
+java:S2209‰"5Change this instance-reference to a static reference.(£Ş×i8÷«µò‡2
