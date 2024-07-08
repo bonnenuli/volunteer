@@ -2,6 +2,7 @@ package Jframe.ManageUtl;
 
 import Dao.MenageEvent;
 import Front.Fronts;
+import utils.Mysqld;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -227,6 +228,11 @@ public class Myself extends JFrame {
         sc.setBackground(Color.cyan);
         sc.setFont(fronts.username);
         sc.setBounds(300,430,230,60);
+        sc.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e){
+                new EditInfoDialog();
+            }});
         // 添加长传头像控件
         uploadButton = new JButton("上传头像");
         uploadButton.setFont(fronts.username);
@@ -323,8 +329,6 @@ public class Myself extends JFrame {
         activities.addActionListener(listener_1);
         notic.addActionListener(listener_1);
         personal.addActionListener(listener_1);
-        sc.addActionListener(listener_1);
-
     }
     void Event(){
         uploadButton.addActionListener(listener_2);
@@ -338,7 +342,6 @@ public class Myself extends JFrame {
         activities.setName("acts");
         notic.setName("not");
         personal.setName("per");
-        sc.setName("my");
     }
 
 

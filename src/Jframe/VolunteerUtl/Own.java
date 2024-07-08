@@ -2,6 +2,7 @@ package Jframe.VolunteerUtl;
 
 import Front.Fronts;
 import Dao.VolEvent;
+import Jframe.ManageUtl.EditInfoDialog;
 import Jframe.ManageUtl.Myself;
 
 import javax.imageio.ImageIO;
@@ -217,6 +218,11 @@ public class Own extends JFrame {
         sc.setBackground(Color.cyan);
         sc.setFont(fronts.username);
         sc.setBounds(300,430,230,60);
+        sc.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e){
+                new EditInfoDialog();
+            }});
         // 添加长传头像控件
         uploadButton = new JButton("上传头像");
         uploadButton.setFont(fronts.username);
@@ -316,7 +322,6 @@ public class Own extends JFrame {
         news.addActionListener(listener_1);
         message.addActionListener(listener_1);
         personal.addActionListener(listener_1);
-        sc.addActionListener(listener_1);
         sin.addActionListener(listener_1);
     }
     void Event(){
@@ -331,7 +336,6 @@ public class Own extends JFrame {
         news.setName("new");
         message.setName("message");
         personal.setName("per");
-        sc.setName("my");
         sin.setName("sin");
     }
 }

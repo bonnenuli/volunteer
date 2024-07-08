@@ -5,6 +5,7 @@ import Dao.VolEvent;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Discussion extends JFrame {
@@ -28,6 +29,7 @@ public class Discussion extends JFrame {
     JButton news;
     JButton message;
     JButton personal;
+    public static JTextArea messages,resultText;//显示结果
     JLabel bgimg;
     // 定义一个面板
     JPanel contentPanel;
@@ -130,8 +132,58 @@ public class Discussion extends JFrame {
         jPanel_3.setLayout(boxLayout);
         jPanel_3.setBackground(Color.cyan);
         jPanel_3.setOpaque(false);
-        jPanel_3.setBorder(BorderFactory.createTitledBorder("搜索框"));
-        jPanel_3.setBounds(370, 550, 2050, 750);
+        jPanel_3.setBorder(BorderFactory.createTitledBorder(""));
+        jPanel_3.setBounds(350, 500, 1850, 850);
+        messages = new JTextArea();
+        messages.setBorder(BorderFactory.createTitledBorder("留言框"));
+        messages.setEditable(false);
+        messages.setFont(fronts.sear);
+        messages.setBounds(20,50,750,700);
+        // 定义两个输入框
+        JTextField inputFieldUser1 = new JTextField();
+        JTextField inputFieldUser2 = new JTextField();
+        // 定义两个发送按钮
+        JButton sendButtonUser1 = new JButton("发送");
+        JButton sendButtonUser2 = new JButton("发送");
+        // 设置输入框和发送按钮的位置和大小
+        inputFieldUser1.setBounds(20, 750, 650, 50);
+        sendButtonUser1.setBounds(670, 750, 100, 50);
+        inputFieldUser2.setBounds(20, 800, 650, 50);
+        sendButtonUser2.setBounds(670, 800, 100, 50);
+        // 为第一个账号的发送按钮添加事件监听器
+        sendButtonUser1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // 获取第一个账号输入框中的文本
+                String inputTextUser1 = inputFieldUser1.getText();
+                // 将文本添加到第一个账号的文本域和公共文本域中
+                messages.setText(messages.getText() + "用户1: " + inputTextUser1 + "\n");
+                resultText.setText(resultText.getText() + "用户1: " + inputTextUser1 + "\n");
+                // 清空第一个账号的输入框
+                inputFieldUser1.setText("");
+            }
+        });
+        // 为第二个账号的发送按钮添加事件监听器
+        sendButtonUser2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // 获取第二个账号输入框中的文本
+                String inputTextUser2 = inputFieldUser2.getText();
+                // 将文本添加到第二个账号的文本域和公共文本域中
+                messages.setText(messages.getText() + "用户2: " + inputTextUser2 + "\n");
+                resultText.setText(resultText.getText() + "用户2: " + inputTextUser2 + "\n");
+                // 清空第二个账号的输入框
+                inputFieldUser2.setText("");
+            }
+        });
+        //添加显示结果
+        resultText = new JTextArea();
+        resultText.setBorder(BorderFactory.createTitledBorder("留言信息显示"));
+        resultText.setEditable(false);
+        resultText.setFont(fronts.sear);
+        resultText.setOpaque(false);
+        resultText.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.WHITE), "留言信息显示"));
+        resultText.setBounds(900,50,700,750);
         //添加按钮
         jPanel_1.add(footerLabel);
         jPanel_2.add(first1);
@@ -143,6 +195,12 @@ public class Discussion extends JFrame {
         jPanel_2.add(news);
         jPanel_2.add(message);
         jPanel_2.add(personal);
+        jPanel_3.add(messages);
+        jPanel_3.add(inputFieldUser1);
+        jPanel_3.add(sendButtonUser1);
+        jPanel_3.add(inputFieldUser2);
+        jPanel_3.add(sendButtonUser2);
+        jPanel_3.add(resultText);
         this.add(jPanel_3);
         this.add(jPanel_2);
         this.add(jPanel_1);

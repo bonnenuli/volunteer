@@ -715,4 +715,24 @@ public class Mysqld {
             System.out.println(e);
         }
     }
+    public static void updatemy() {
+        ResultSet rs;
+        PreparedStatement preSql;
+        String sqlStr = "update my set number=?,em=?, br=? where name=?";
+        try {
+            String number = EditInfoDialog.phoneTextField.getText();
+            String name = EditInfoDialog.nameTextField.getText();
+            String em = EditInfoDialog.emailTextField.getText();
+            String br = EditInfoDialog.birthdayTextField.getText();
+            preSql = con.prepareStatement(sqlStr);
+            preSql.setString(1, number);
+            preSql.setString(2, em);
+            preSql.setString(3, br);
+            preSql.setString(4, name);
+            int ok = preSql.executeUpdate();
+            JOptionPane.showMessageDialog(null, "更改成功", "更改消息", JOptionPane.WARNING_MESSAGE);
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "更改失败", "更改消息", JOptionPane.WARNING_MESSAGE);
+        }
+    }
 }

@@ -1,7 +1,5 @@
-import Jframe.ManageUtl.Actsign;
-import Jframe.VolunteerUtl.sign;
+import Jframe.VolunteerUtl.Own;
 import View.Login;
-import View.Volunteer;
 import utils.Mysqld;
 
 import javax.swing.*;
@@ -62,8 +60,8 @@ public class App {
             //活动精彩瞬间
             //new Moments();
             //活动签到
-            new sign();
+            //new sign();
             //个人主页
-            //new Own();
+            new Own();
         }
 }

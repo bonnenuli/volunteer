@@ -36,9 +36,11 @@ public class MenageEvent implements ActionListener {
             if ("per".equals(button.getName())) {
                 new Myself();
             }
-            if ("my".equals(button.getName())) {
+            /*if ("my".equals(button.getName())) {
                 new EditInfoDialog();
             }
+
+             */
         } catch(Exception ex){
             ex.printStackTrace();
         }

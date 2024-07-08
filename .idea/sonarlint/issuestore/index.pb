@@ -57,12 +57,6 @@ c
 3.idea/libraries/mysql_connector_java_5_1_48__2_.xml,a\a\aa1942a7000a24a8d1ede19f810fdf044a5e78d2
 g
 7.idea/libraries/mysql_connector_java_5_1_48_bin__2_.xml,9\1\919eaddeb249bf406ac87481477fec246af3303d
-c
-3.idea/libraries/mysql_connector_java_5_1_48_bin.xml,d\0\d0e239ba57d6cabbc0e990f41c6e8dbe98e7b638
-_
-/.idea/libraries/mysql_connector_java_5_1_48.xml,4\5\45d5533447a67ddd85c7cf22aec8cbff90690456
-G
-.idea/libraries/lib.xml,5\6\563a23e064e6fdd2d09bd0c2d99ef456aff71a31
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 C
@@ -106,3 +100,21 @@ T
 $src/Jframe/VolunteerUtl/Moments.java,c\5\c59b24704ed7316f7233dfcbb1a08f9bcea06704
 Q
 !src/Jframe/VolunteerUtl/sign.java,8\b\8bbace4c1a88e2c2a8bf9ade9e3e23afd8303649
+S
+#.idea/libraries/slf4j_api_1_7_2.xml,f\b\fb841cced4c2e089386324096d73a0f9cfb3ee69
+O
+.idea/libraries/bridj_0_6_2.xml,d\e\de59b941471f824714fdf8886b8fe34c66070bad
+Y
+).idea/libraries/webcam_capture_0_3_10.xml,d\2\d28ca654492d27e9ee740fa4e0f953d38230afeb
+E
+src/utils/Camera.java,9\3\93985189164a346be9ff955df28be6e075c765f8
+D
+src/utils/Image.java,4\0\403f9f2aced67af552376f237335c9b4579fde1e
+G
+src/utils/JDBCUtil.java,a\7\a70b31b9134c0ed71caa9e5044e4662e7bcebfb9
+H
+src/utils/MainFrame.java,e\a\ea47c70cd59344024ac610e6a02347997d0cd710
+F
+src/utils/Session.java,d\2\d21877254de2ef361899a5e025eb2f13c8afd70d
+K
+src/View/VolunteerSign.java,a\4\a495aaf50ba58b2897447b600844e85291abdb98

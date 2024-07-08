@@ -1,6 +1,7 @@
 package Jframe.ManageUtl;
 
 import Dao.MenageEvent;
+import utils.Mysqld;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,10 +10,10 @@ import java.awt.event.ActionListener;
 
 public class EditInfoDialog extends JFrame {
     // 定义组件，如文本字段、标签、按钮等
-    JTextField nameTextField;
-    JTextField phoneTextField;
-    JTextField emailTextField;
-    JTextField birthdayTextField;
+    public static JTextField nameTextField;
+    public static JTextField phoneTextField;
+    public static JTextField emailTextField;
+    public static JTextField birthdayTextField;
     JButton saveButton;
     private MenageEvent listener_1;
 
@@ -43,16 +44,19 @@ public class EditInfoDialog extends JFrame {
         contentPanel.add(new JLabel("生日:"));
         contentPanel.add(birthdayTextField);
         contentPanel.add(saveButton);
+        saveButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e){
+                try {
+                    //向数据库更新信息
+                    Mysqld.updatemy();
+                }catch (Exception e1) {
 
+                }
+            }});
         // 添加内容面板到窗口
         add(contentPanel);
-        allEvent();
         setVisible(true); // 设置窗口可见
-    }
-
-    void allEvent() {
-        listener_1 = new MenageEvent();
-        saveButton.addActionListener(listener_1);
     }
 
     }

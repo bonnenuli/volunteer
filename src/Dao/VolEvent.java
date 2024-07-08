@@ -54,9 +54,6 @@ public class VolEvent implements ActionListener {
                 // 弹出提示框
                 JOptionPane.showMessageDialog(null, "报名成功！", "提示", JOptionPane.INFORMATION_MESSAGE);
             }
-            if ("my".equals(button.getName())) {
-                new EditInfoDialog();
-            }
 
         } catch (HeadlessException ex) {
             ex.printStackTrace();
