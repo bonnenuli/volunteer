@@ -4,16 +4,16 @@ m
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.(¼ Òşüÿÿÿÿ
 @	java:S106$"+Replace this use of System.out by a logger.(µ…
 B
-java:S1125J"'Remove the unnecessary boolean literal.(ú„¡ºÿÿÿÿÿ
+java:S1125M"'Remove the unnecessary boolean literal.(ú„¡ºÿÿÿÿÿ
 @
-java:S1197["*Move the array designators [] to the type.(Ä¦â¤
-B
-java:S1125"'Remove the unnecessary boolean literal.(ú„¡ºÿÿÿÿÿ
+java:S1197^"*Move the array designators [] to the type.(Ä¦â¤
+C
+java:S1125‚"'Remove the unnecessary boolean literal.(ú„¡ºÿÿÿÿÿ
 A
-java:S1197—"*Move the array designators [] to the type.(Ä¦â¤
-D	java:S108¢")Either remove or fill this block of code.(®¤¯îıÿÿÿÿ
+java:S1197š"*Move the array designators [] to the type.(Ä¦â¤
+D	java:S108¥")Either remove or fill this block of code.(®¤¯îıÿÿÿÿ
 A
-java:S1197¨"*Move the array designators [] to the type.(Ä¦â¤
-D	java:S108¹")Either remove or fill this block of code.(Ò´øÿÿÿÿ
+java:S1197«"*Move the array designators [] to the type.(Ä¦â¤
+D	java:S108¼")Either remove or fill this block of code.(Ò´øÿÿÿÿ
 â
 java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 129 to 64, Complexity from 38 to 14, Nesting Level from 5 to 2, Number of Variables from 28 to 6.(¼ Òşüÿÿÿÿ

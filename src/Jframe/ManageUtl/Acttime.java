@@ -27,10 +27,8 @@ public class Acttime extends JFrame {
         //定义标签
         JLabel footerLabel;
         private static JButton first2;
-        private static JButton type;
         private static JButton activity;
         private static JButton volunteer;
-        private static JButton notic;
         private static JButton acttimes;
         private static JButton actforms;
         private static JButton personal;
@@ -118,7 +116,7 @@ public class Acttime extends JFrame {
             first2.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
             first2.setForeground(new Color(23, 153, 234));
             first2.setBackground(Color.cyan);
-            first2.setBounds(350, 10, 100, 70);
+            first2.setBounds(450, 10, 150, 70);
             volunteer = new JButton("志愿者管理");
             volunteer.setForeground(new Color(23, 153, 234));
             volunteer.setBackground(Color.cyan);
@@ -126,7 +124,7 @@ public class Acttime extends JFrame {
             volunteer.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
             volunteer.setBorder(null);//设置此组件的无边框
             volunteer.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
-            volunteer.setBounds(470, 10, 210, 70);
+            volunteer.setBounds(640, 10, 240, 70);
             activity = new JButton("活动管理");
             activity.setFont(fronts.username);
             activity.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
@@ -134,23 +132,7 @@ public class Acttime extends JFrame {
             activity.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
             activity.setForeground(new Color(23, 153, 234));
             activity.setBackground(Color.cyan);
-            activity.setBounds(700, 10, 180, 70);
-            type = new JButton("活动分类管理");
-            type.setFont(fronts.username);
-            type.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
-            type.setBorder(null);//设置此组件的无边框
-            type.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
-            type.setForeground(new Color(23, 153, 234));
-            type.setBackground(Color.cyan);
-            type.setBounds(900, 10, 240, 70);
-            notic = new JButton("通知公告");
-            notic.setFont(fronts.username);
-            notic.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
-            notic.setBorder(null);//设置此组件的无边框
-            notic.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
-            notic.setForeground(new Color(23, 153, 234));
-            notic.setBackground(Color.cyan);
-            notic.setBounds(1160, 10, 180, 70);
+            activity.setBounds(910, 10, 220, 70);
             actforms = new JButton("活动报名信息管理");
             actforms.setFont(fronts.username);
             actforms.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
@@ -158,7 +140,7 @@ public class Acttime extends JFrame {
             actforms.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
             actforms.setForeground(new Color(23, 153, 234));
             actforms.setBackground(Color.cyan);
-            actforms.setBounds(1360, 10, 300, 70);
+            actforms.setBounds(1170, 10, 330, 70);
             acttimes = new JButton("活动时长管理");
             acttimes.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
             acttimes.setBorder(null);//设置此组件的无边框
@@ -166,7 +148,7 @@ public class Acttime extends JFrame {
             acttimes.setFont(fronts.username);
             acttimes.setForeground(new Color(23, 153, 234));
             acttimes.setBackground(Color.cyan);
-            acttimes.setBounds(1680, 10, 240, 70);
+            acttimes.setBounds(1540, 10, 260, 70);
             personal = new JButton("个人中心");
             personal.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
             personal.setBorder(null);//设置此组件的无边框
@@ -174,7 +156,7 @@ public class Acttime extends JFrame {
             personal.setFont(fronts.username);
             personal.setForeground(new Color(23, 153, 234));
             personal.setBackground(Color.cyan);
-            personal.setBounds(1940, 10, 180, 70);
+            personal.setBounds(1840, 10, 180, 70);
             //初始化第三个框的组件
             jPanel_3 = new javax.swing.JPanel();
             jPanel_3.setLayout(boxLayout);
@@ -250,8 +232,6 @@ public class Acttime extends JFrame {
             jPanel_2.add(first2);
             jPanel_2.add(volunteer);
             jPanel_2.add(activity);
-            jPanel_2.add(type);
-            jPanel_2.add(notic);
             jPanel_2.add(actforms);
             jPanel_2.add(acttimes);
             jPanel_2.add(personal);
@@ -287,9 +267,7 @@ public class Acttime extends JFrame {
         volunteer.addActionListener(listener_1);
         actforms.addActionListener(listener_1);
         acttimes.addActionListener(listener_1);
-        type.addActionListener(listener_1);
         activity.addActionListener(listener_1);
-        notic.addActionListener(listener_1);
         personal.addActionListener(listener_1);
     }
     void Event(){
@@ -303,9 +281,7 @@ public class Acttime extends JFrame {
         volunteer.setName("vol");
         actforms.setName("apply");
         acttimes.setName("time");
-        type.setName("type");
         activity.setName("acts");
-        notic.setName("not");
         personal.setName("per");
         searchButton.setName("search");
         addButton.setName("addt");

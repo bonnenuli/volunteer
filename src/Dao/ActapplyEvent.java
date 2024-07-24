@@ -14,9 +14,14 @@ public class ActapplyEvent implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         try {
             button = (JButton) e.getSource();//强制转换类型
+            if ("baom".equals(button.getName())) {
+                // 弹出提示框
+                JOptionPane.showMessageDialog(null, "报名成功！", "提示", JOptionPane.INFORMATION_MESSAGE);
+            }
             if ("dapply".equals(button.getName())) {
                 // 获取用户输入的编号列表
                 String numbers = ActivityRegist.activitytext.getText().trim();
+                //假设它是一个JTextField文本输入，并使用trim()方法移除前后的空白字符，然后将结果赋值给numbers变量。
 
                 // 检查是否有输入
                 if (numbers.isEmpty()) {
@@ -44,9 +49,10 @@ public class ActapplyEvent implements ActionListener {
                 String time = ActivityRegist.timetext.getText();
                 String state = ActivityRegist.statetext.getText();
                 if (pre.equals("")) {
+                    //if语句判断四条输入文本框是否都是空的
                     if (nc.equals("") && applyper.equals("") && apply.equals("") && time.equals("") && state.equals("")) {
                         Mysqld.findAllApply();
-                        //信息框是否有数据 查看所以数据
+                        //信息框是否有数据 查看数据库数据
                         System.out.println("正在查找所有消息");
                     } else {
                         if (nc.equals("")) {
@@ -76,6 +82,7 @@ public class ActapplyEvent implements ActionListener {
         }
     }
 
+//查找后返回结果
     public static ResultSet addAble(ResultSet rt){
         String data[]=new String[6];
         try {
@@ -92,6 +99,8 @@ public class ActapplyEvent implements ActionListener {
         }
         return rt;
     }
+
+
     public static void addOneAble(ResultSet rt){
         String data[]=new String[6];
         try {

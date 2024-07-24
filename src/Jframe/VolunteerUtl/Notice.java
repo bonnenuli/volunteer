@@ -5,6 +5,7 @@ import Dao.VolEvent;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Notice extends JFrame {
@@ -176,6 +177,52 @@ public class Notice extends JFrame {
         String[] roles = {"青春", "校园","青春伴夕阳","清风校园","节能校园行","维持秩序"};
         JComboBox<String> roleComboBox = new JComboBox<>(roles);
         roleComboBox.setBounds(220,20,300,40);
+        // 为下拉列表添加事件监听器
+        roleComboBox.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // 获取下拉列表选中的值
+                String selectedRole = (String) roleComboBox.getSelectedItem();
+                // 根据选中的值更新文本字段
+                switch (selectedRole) {
+                    case "青春":
+                        nametext.setText("张老师");
+                        numbertext.setText("13800138000");
+                        numtext.setText("10");
+                        break;
+                    case "校园":
+                        nametext.setText("李老师");
+                        numbertext.setText("13900139000");
+                        numtext.setText("15");
+                        break;
+                    case "青春伴夕阳":
+                        nametext.setText("王老师");
+                        numbertext.setText("13700137000");
+                        numtext.setText("20");
+                        break;
+                    case "清风校园":
+                        nametext.setText("赵老师");
+                        numbertext.setText("13600136000");
+                        numtext.setText("25");
+                        break;
+                    case "节能校园行":
+                        nametext.setText("刘老师");
+                        numbertext.setText("13500135000");
+                        numtext.setText("30");
+                        break;
+                    case "维持秩序":
+                        nametext.setText("陈老师");
+                        numbertext.setText("13400134000");
+                        numtext.setText("35");
+                        break;
+                    default:
+                        nametext.setText("");
+                        numbertext.setText("");
+                        numtext.setText("");
+                        break;
+                }
+            }
+        });
         name = new JLabel(" 负责人姓名");
         name.setBounds(150,140,200,35);
         name.setFont(fronts.username);

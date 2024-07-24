@@ -1,5 +1,9 @@
-import Jframe.VolunteerUtl.Own;
+import Jframe.ManageUtl.ActivityInfo;
+import Jframe.ManageUtl.ActivityRegist;
+import Jframe.ManageUtl.Myself;
+import Jframe.VolunteerUtl.*;
 import View.Login;
+import View.Volunteer;
 import utils.Mysqld;
 
 import javax.swing.*;
@@ -36,14 +40,12 @@ public class App {
             //new ActivityInfo();
             //更改志愿者信息
             //new UpdateAccount();
-            //活动签到管理
-            //new Actsign();
             //活动时长管理
             //new Acttime();
             //活动报名管理
             //new ActivityRegist();
             //个人中心
-            //new Myself();
+            new Myself();
 
             //志愿者
             //new Volunteer();
@@ -62,6 +64,6 @@ public class App {
             //活动签到
             //new sign();
             //个人主页
-            new Own();
+            //new Own();
         }
 }

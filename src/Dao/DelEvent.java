@@ -8,7 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.SQLException;
-
+//删除志愿者信息
 public class DelEvent implements ActionListener {
     Connection con=null;
     java.sql.Statement sql;

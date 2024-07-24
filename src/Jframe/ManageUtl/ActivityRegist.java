@@ -9,7 +9,9 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.*;
 import java.util.Vector;
 
 public class ActivityRegist extends JFrame {
@@ -39,9 +41,7 @@ public class ActivityRegist extends JFrame {
     public static JButton volunteer;
     public static JButton actforms;
     public static JButton acttimes;
-    public static JButton type;
     public static JButton activities;
-    public static JButton notic;
     public static JButton personal;
     public static JLabel nc;
     public static JTextField nctext;
@@ -120,7 +120,7 @@ public class ActivityRegist extends JFrame {
         first2.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
         first2.setForeground(new Color(23, 153, 234));
         first2.setBackground(Color.cyan);
-        first2.setBounds(350, 10, 100, 70);
+        first2.setBounds(450, 10, 150, 70);
         volunteer = new JButton("志愿者管理");
         volunteer.setForeground(new Color(23, 153, 234));
         volunteer.setBackground(Color.cyan);
@@ -128,7 +128,7 @@ public class ActivityRegist extends JFrame {
         volunteer.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
         volunteer.setBorder(null);//设置此组件的无边框
         volunteer.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
-        volunteer.setBounds(470, 10, 210, 70);
+        volunteer.setBounds(640, 10, 240, 70);
         activities = new JButton("活动管理");
         activities.setFont(fronts.username);
         activities.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
@@ -136,23 +136,7 @@ public class ActivityRegist extends JFrame {
         activities.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
         activities.setForeground(new Color(23, 153, 234));
         activities.setBackground(Color.cyan);
-        activities.setBounds(700, 10, 180, 70);
-        type = new JButton("活动分类管理");
-        type.setFont(fronts.username);
-        type.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
-        type.setBorder(null);//设置此组件的无边框
-        type.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
-        type.setForeground(new Color(23, 153, 234));
-        type.setBackground(Color.cyan);
-        type.setBounds(900, 10, 240, 70);
-        notic = new JButton("通知公告");
-        notic.setFont(fronts.username);
-        notic.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
-        notic.setBorder(null);//设置此组件的无边框
-        notic.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
-        notic.setForeground(new Color(23, 153, 234));
-        notic.setBackground(Color.cyan);
-        notic.setBounds(1160, 10, 180, 70);
+        activities.setBounds(910, 10, 220, 70);
         actforms = new JButton("活动报名信息管理");
         actforms.setFont(fronts.username);
         actforms.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
@@ -160,7 +144,7 @@ public class ActivityRegist extends JFrame {
         actforms.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
         actforms.setForeground(new Color(23, 153, 234));
         actforms.setBackground(Color.cyan);
-        actforms.setBounds(1360, 10, 300, 70);
+        actforms.setBounds(1170, 10, 330, 70);
         acttimes = new JButton("活动时长管理");
         acttimes.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
         acttimes.setBorder(null);//设置此组件的无边框
@@ -168,7 +152,7 @@ public class ActivityRegist extends JFrame {
         acttimes.setFont(fronts.username);
         acttimes.setForeground(new Color(23, 153, 234));
         acttimes.setBackground(Color.cyan);
-        acttimes.setBounds(1680, 10, 240, 70);
+        acttimes.setBounds(1540, 10, 260, 70);
         personal = new JButton("个人中心");
         personal.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
         personal.setBorder(null);//设置此组件的无边框
@@ -176,8 +160,7 @@ public class ActivityRegist extends JFrame {
         personal.setFont(fronts.username);
         personal.setForeground(new Color(23, 153, 234));
         personal.setBackground(Color.cyan);
-        personal.setBounds(1940, 10, 180, 70);
-
+        personal.setBounds(1840, 10, 180, 70);
         //初始化第三个框的组件
         jPanel_3 = new javax.swing.JPanel();
         jPanel_3.setLayout(boxLayout);
@@ -212,7 +195,28 @@ public class ActivityRegist extends JFrame {
         deleteButton = new JButton("删除数据");
         deleteButton.setContentAreaFilled(false);
         deleteButton.setBounds(40, 470, 210, 50);
-
+        JButton exportButton = new JButton("导出为CSV");
+        exportButton.setContentAreaFilled(false);
+        exportButton.setBounds(40, 540, 210, 50);
+        jPanel_3.add(exportButton);
+        // 为导出按钮添加事件监听器
+        exportButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                exportToCSV();
+            }
+        });
+        JButton export = new JButton("导出为Excle");
+        export.setContentAreaFilled(false);
+        export.setBounds(40, 610, 210, 50);
+        jPanel_3.add(export);
+        // 为导出按钮添加事件监听器
+        export.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                exportToExcel();
+            }
+        });
         //初始化第四个框的组件
         jPanel_4 = new javax.swing.JPanel();
         jPanel_4.setLayout(boxLayout);
@@ -252,14 +256,10 @@ public class ActivityRegist extends JFrame {
         state.setBounds(20,370,150,45);
         statetext = new JTextField(9);
         statetext.setBounds(170,370,350,45);
-
-
         jPanel_1.add(footerLabel);
         jPanel_2.add(first2);
         jPanel_2.add(volunteer);
         jPanel_2.add(activities);
-        jPanel_2.add(type);
-        jPanel_2.add(notic);
         jPanel_2.add(actforms);
         jPanel_2.add(acttimes);
         jPanel_2.add(personal);
@@ -294,19 +294,14 @@ public class ActivityRegist extends JFrame {
         Event();
         setAllName();
     }
-
     void allEvent() {
         listener_1 = new MenageEvent();
         first2.addActionListener(listener_1);
         volunteer.addActionListener(listener_1);
         actforms.addActionListener(listener_1);
         acttimes.addActionListener(listener_1);
-        type.addActionListener(listener_1);
         activities.addActionListener(listener_1);
-        notic.addActionListener(listener_1);
         personal.addActionListener(listener_1);
-
-
     }
     void Event(){
         listener_2 = new ActapplyEvent();
@@ -318,14 +313,11 @@ public class ActivityRegist extends JFrame {
         volunteer.setName("vol");
         actforms.setName("apply");
         acttimes.setName("time");
-        type.setName("type");
         activities.setName("acts");
-        notic.setName("not");
         personal.setName("per");
         deleteButton.setName("dapply");
         searchButton.setName("sapply");
     }
-
     void table() {
         table = getTable();
         jScrollPane = new JScrollPane(table);//添加一个浏览窗格
@@ -333,7 +325,6 @@ public class ActivityRegist extends JFrame {
         table.setPreferredSize(new Dimension(1400, 1500));//给表格设置大小
         jScrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);//将滑动组件显示在窗口中
     }
-
     JTable getTable() {
         if (table == null) {
             table = new JTable();//创建
@@ -358,6 +349,84 @@ public class ActivityRegist extends JFrame {
         }
         return table;
     }
+    // 导出为CSV文件的方法
+    private void exportToCSV() {
+        JFileChooser fileChooser = new JFileChooser();
+        fileChooser.setDialogTitle("导出CSV文件");
+        int userSelection = fileChooser.showSaveDialog(this);
 
+        if (userSelection == JFileChooser.APPROVE_OPTION) {
+            File fileToSave = fileChooser.getSelectedFile();
+            if (!fileToSave.getName().toLowerCase().endsWith(".csv")) {
+                fileToSave = new File(fileToSave.getParentFile(), fileToSave.getName() + ".csv");
+            }
+            try (BufferedWriter bw = new BufferedWriter(new FileWriter(fileToSave))) {
+                DefaultTableModel model = (DefaultTableModel) table.getModel();
+                // 写入CSV文件头部
+                for (int i = 0; i < model.getColumnCount(); i++) {
+                    bw.write(model.getColumnName(i));
+                    if (i != model.getColumnCount() - 1) {
+                        bw.write(",");
+                    }
+                }
+                bw.newLine();
+                // 写入数据
+                for (int i = 0; i < model.getRowCount(); i++) {
+                    for (int j = 0; j < model.getColumnCount(); j++) {
+                        bw.write(model.getValueAt(i, j).toString());
+                        if (j != model.getColumnCount() - 1) {
+                            bw.write(",");
+                        }
+                    }
+                    bw.newLine();
+                }
 
+                JOptionPane.showMessageDialog(this, "文件已成功导出: " + fileToSave.getAbsolutePath());
+
+            } catch (IOException ex) {
+                JOptionPane.showMessageDialog(this, "导出文件时出错: " + ex.getMessage());
+            }
+        }
+    }
+    private void exportToExcel() {
+        JFileChooser fileChooser = new JFileChooser();
+        fileChooser.setDialogTitle("导出Excel文件");
+
+        int userSelection = fileChooser.showSaveDialog(this);
+
+        if (userSelection == JFileChooser.APPROVE_OPTION) {
+            File fileToSave = fileChooser.getSelectedFile();
+            if (!fileToSave.getName().toLowerCase().endsWith(".xls")) {
+                fileToSave = new File(fileToSave.getParentFile(), fileToSave.getName() + ".xls");
+            }
+
+            try (PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(fileToSave)))) {
+                DefaultTableModel model = (DefaultTableModel) table.getModel();
+                // 写入数据表头部
+                for (int i = 0; i < model.getColumnCount(); i++) {
+                    pw.print(model.getColumnName(i));
+                    if (i < model.getColumnCount() - 1) {
+                        pw.print("\t"); // 使用制表符分隔列，这是Excel能够识别的简单分隔符
+                    }
+                }
+                pw.println();
+
+                // 写入数据
+                for (int i = 0; i < model.getRowCount(); i++) {
+                    for (int j = 0; j < model.getColumnCount(); j++) {
+                        pw.print(model.getValueAt(i, j).toString());
+                        if (j < model.getColumnCount() - 1) {
+                            pw.print("\t"); // 使用制表符分隔列
+                        }
+                    }
+                    pw.println();
+                }
+
+                JOptionPane.showMessageDialog(this, "文件已成功导出: " + fileToSave.getAbsolutePath());
+
+            } catch (IOException ex) {
+                JOptionPane.showMessageDialog(this, "导出文件时出错: " + ex.getMessage());
+            }
+        }
+    }
 }

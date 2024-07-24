@@ -60,6 +60,9 @@ public class ActInofEvent implements ActionListener {
                 Mysqld.findOneActinfo(num);
             }
         }
+
+
+        //活动报名的增删，报名信息的导出
         if ("addi".equals(button.getName())) {
             ActivityInfo.model.setNumRows(0);//将表格数据置为0
             boolean allt = ActivityInfo.allt.isSelected();

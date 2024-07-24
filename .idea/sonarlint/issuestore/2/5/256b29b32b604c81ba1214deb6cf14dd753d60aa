@@ -1,11 +1,11 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿ Ø÷8—áù„2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿ Ø÷8ôÏ¦ü‰2
 t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(¼ Òşüÿÿÿÿ8ùáù„2
-G	java:S1062"+Replace this use of System.out by a logger.(µ…8ûáù„2
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(¼ Òşüÿÿÿÿ8“Ñ¦ü‰2
+G	java:S1068"+Replace this use of System.out by a logger.(µ…8—Ñ¦ü‰2
 G
-java:S1197P"*Move the array designators [] to the type.(Ä¦â¤8ãù„2
-J	java:S108Z")Either remove or fill this block of code.(®¤¯îıÿÿÿÿ8ãù„2
+java:S1197W"*Move the array designators [] to the type.(Ä¦â¤8™Ñ¦ü‰2
+J	java:S108a")Either remove or fill this block of code.(®¤¯îıÿÿÿÿ8šÑ¦ü‰2
 G
-java:S1197`"*Move the array designators [] to the type.(Ä¦â¤8ãù„2
-J	java:S108o")Either remove or fill this block of code.(Ò´øÿÿÿÿ8ãù„2
+java:S1197i"*Move the array designators [] to the type.(Ä¦â¤8›Ñ¦ü‰2
+J	java:S108x")Either remove or fill this block of code.(Ò´øÿÿÿÿ8œÑ¦ü‰2

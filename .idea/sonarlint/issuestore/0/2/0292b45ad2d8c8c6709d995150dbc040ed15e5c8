@@ -1,30 +1,30 @@
 
-e	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê‹ƒ
+e	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê‹ƒ
 W
-java:S4973"<Strings and Boxed types should be compared using "equals()".(•Öûÿÿÿÿ
+java:S4973"<Strings and Boxed types should be compared using "equals()".(•Öûÿÿÿÿ
 W
-java:S4973$"<Strings and Boxed types should be compared using "equals()".(áù¶÷üÿÿÿÿ
+java:S4973!"<Strings and Boxed types should be compared using "equals()".(áù¶÷üÿÿÿÿ
 R
-java:S4973&"<Strings and Boxed types should be compared using "equals()".(ïŠì¦
+java:S4973#"<Strings and Boxed types should be compared using "equals()".(ïŠì¦
 W
-java:S4973("<Strings and Boxed types should be compared using "equals()".(º¡æ·úÿÿÿÿ
+java:S4973%"<Strings and Boxed types should be compared using "equals()".(º¡æ·úÿÿÿÿ
 Q
-java:S4973*"<Strings and Boxed types should be compared using "equals()".(ê¡áE
+java:S4973'"<Strings and Boxed types should be compared using "equals()".(ê¡áE
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿ Ø÷
 e
-java:S2095U"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÎåöÀ
-h	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓûŒ™úÿÿÿÿ
+java:S2095F"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÎåöÀ
+h	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓûŒ™úÿÿÿÿ
 T
-java:S1854["9Remove this useless assignment to local variable "login".(ºªìïúÿÿÿÿ
+java:S1854L"9Remove this useless assignment to local variable "login".(ºªìïúÿÿÿÿ
 B
-java:S1125?"'Remove the unnecessary boolean literal.(–¢Œ®ùÿÿÿÿ
+java:S11254"'Remove the unnecessary boolean literal.(–¢Œ®ùÿÿÿÿ
 =
-java:S1125A"'Remove the unnecessary boolean literal.(£Ë¡Ê
+java:S11256"'Remove the unnecessary boolean literal.(£Ë¡Ê
 <
-java:S1125C"'Remove the unnecessary boolean literal.(ùÂþ
+java:S11258"'Remove the unnecessary boolean literal.(ùÂþ
 =
-java:S1125E"'Remove the unnecessary boolean literal.(“ÅíÙ
+java:S1125:"'Remove the unnecessary boolean literal.(“ÅíÙ
 =
-java:S1125G"'Remove the unnecessary boolean literal.(‹¼à»
+java:S1125<"'Remove the unnecessary boolean literal.(‹¼à»
 L
-java:S1481["*Remove this unused "login" local variable.(ºªìïúÿÿÿÿ8Ã…º…2
+java:S1481L"*Remove this unused "login" local variable.(ºªìïúÿÿÿÿ8Ã…º…2

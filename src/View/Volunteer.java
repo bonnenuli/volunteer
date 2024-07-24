@@ -169,6 +169,7 @@ public class Volunteer extends JFrame {
         news.addActionListener(listener_1);
         message.addActionListener(listener_1);
         personal.addActionListener(listener_1);
+        sin.addActionListener(listener_1);
 
     }
 
@@ -181,7 +182,7 @@ public class Volunteer extends JFrame {
         news.setName("new");
         message.setName("message");
         personal.setName("per");
-
+        sin.setName("sin");
     }
 
 }

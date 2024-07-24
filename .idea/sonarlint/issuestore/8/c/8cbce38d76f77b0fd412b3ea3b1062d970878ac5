@@ -1,13 +1,36 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şˆîÇ8ÌıêÓ„2
-q	java:S116"URename this field "listener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É•§¶8ÓıêÓ„2
-v
-java:S1450"YRemove the "listener_1" field and declare it as a local variable in the relevant methods.(É•§¶8×ıêÓ„2
+E
+java:S1604/"(Make this anonymous inner class a lambda(Ï¸8õØ»ÿˆ2
+{
+java:S1104"YMake nameTextField a static final constant or non-public and provide accessors if needed.(‰­«Ùşÿÿÿÿ8Ôğšÿˆ2
+|
+java:S1104"ZMake phoneTextField a static final constant or non-public and provide accessors if needed.(ÎÀ°ÿşÿÿÿÿ8Ôğšÿˆ2
+|
+java:S1104"ZMake emailTextField a static final constant or non-public and provide accessors if needed.(êøî„øÿÿÿÿ8Ôğšÿˆ2
+
+java:S1104"]Make birthdayTextField a static final constant or non-public and provide accessors if needed.(± æœÿÿÿÿÿ8Ôğšÿˆ2
+U
+java:S1444"3Make this "public static nameTextField" field final(‰­«Ùşÿÿÿÿ8Ôğšÿˆ2
+V
+java:S1444"4Make this "public static phoneTextField" field final(ÎÀ°ÿşÿÿÿÿ8Ôğšÿˆ2
+V
+java:S1444"4Make this "public static emailTextField" field final(êøî„øÿÿÿÿ8Ôğšÿˆ2
+Y
+java:S1444"7Make this "public static birthdayTextField" field final(± æœÿÿÿÿÿ8Ôğšÿˆ2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şˆîÇ8Öğšÿˆ2
+q	java:S116"URename this field "listener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É•§¶8äğšÿˆ2
 I
-java:S1948",Make "listener_1" transient or serializable.(É•§¶8ØıêÓ„2
+java:S1948",Make "listener_1" transient or serializable.(É•§¶8ƒñšÿˆ2
+L
+java:S3010"*Remove this assignment of "nameTextField".(¦½Ä¢ùÿÿÿÿ8¡ñšÿˆ2
+M
+java:S3010"+Remove this assignment of "phoneTextField".(¥õ‹”úÿÿÿÿ8¡ñšÿˆ2
+M
+java:S3010"+Remove this assignment of "emailTextField".(Şùí†øÿÿÿÿ8¡ñšÿˆ2
+J
+java:S3010".Remove this assignment of "birthdayTextField".(Í½°y8¡ñšÿˆ2
 i
-java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(¼¿¤±8ÛıêÓ„2
-T
-java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8ŞıêÓ„2
-W
-java:S1128":Remove this unused import 'java.awt.event.ActionListener'.(Ìä¹8ŞıêÓ„2
+java:S3252 "LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(¼¿¤±8£ñšÿˆ2
+E	java:S1085")Either remove or fill this block of code.(°òÒ¬8Â»ÿˆ2
+K
+java:S1068".Remove this unused "listener_1" private field.(É•§¶8´Á›ÿˆ2

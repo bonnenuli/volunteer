@@ -19,14 +19,10 @@ o
 java:S1104$"TMake actforms a static final constant or non-public and provide accessors if needed.(æ¶ó”úÿÿÿÿ
 j
 java:S1104%"TMake acttimes a static final constant or non-public and provide accessors if needed.(ëáÅ
-f
-java:S1104&"PMake type a static final constant or non-public and provide accessors if needed.(œé¶¡
 l
-java:S1104'"VMake activities a static final constant or non-public and provide accessors if needed.(Û‚ğ
-g
-java:S1104("QMake notic a static final constant or non-public and provide accessors if needed.(ûîç´
+java:S1104&"VMake activities a static final constant or non-public and provide accessors if needed.(Û‚ğ
 j
-java:S1104)"TMake personal a static final constant or non-public and provide accessors if needed.(¥ï
+java:S1104'"TMake personal a static final constant or non-public and provide accessors if needed.(¥ï
 D
 java:S1444".Make this "public static activity" field final(ğØ·
 M
@@ -47,62 +43,50 @@ I
 java:S1444$".Make this "public static actforms" field final(æ¶ó”úÿÿÿÿ
 D
 java:S1444%".Make this "public static acttimes" field final(ëáÅ
-@
-java:S1444&"*Make this "public static type" field final(œé¶¡
 F
-java:S1444'"0Make this "public static activities" field final(Û‚ğ
-A
-java:S1444("+Make this "public static notic" field final(ûîç´
+java:S1444&"0Make this "public static activities" field final(Û‚ğ
 D
-java:S1444)".Make this "public static personal" field final(¥ï
+java:S1444'".Make this "public static personal" field final(¥ï
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ
 m	java:S116"SRename this field "jPanel_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£’³øÿÿÿÿ
 h	java:S116"SRename this field "jPanel_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şûò
 h	java:S116"SRename this field "jPanel_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¢¡õ
-j	java:S116."URename this field "listener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ª¼“
+j	java:S116,"URename this field "listener_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ª¼“
 B
-java:S1948.",Make "listener_1" transient or serializable.(¬ª¼“
+java:S1948,",Make "listener_1" transient or serializable.(¬ª¼“
 b
-java:S32525"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ
+java:S32523"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ
 A
-java:S2440E"&Remove this instantiation of "Fronts".(§‚¢êúÿÿÿÿ
+java:S2440C"&Remove this instantiation of "Fronts".(§‚¢êúÿÿÿÿ
 \
-java:S3252]"AUse static access with "javax.swing.SwingConstants" for "CENTER".(±Ÿ¦ıÿÿÿÿ
+java:S3252["AUse static access with "javax.swing.SwingConstants" for "CENTER".(±Ÿ¦ıÿÿÿÿ
 P
-java:S2209^"5Change this instance-reference to a static reference.(Èî‚¿úÿÿÿÿ
-L
-java:S2696o"6Make the enclosing method "static" or remove this set.(¹ˆ¥æ
+java:S2209\"5Change this instance-reference to a static reference.(Èî‚¿úÿÿÿÿ
+S
+java:S2696m"6Make the enclosing method "static" or remove this set.(¹ˆ¥æ8ŒÓì²‰2
 P
-java:S2209p"5Change this instance-reference to a static reference.(¼ö…¶ûÿÿÿÿ
-Q
-java:S2696w"6Make the enclosing method "static" or remove this set.(«©ææúÿÿÿÿ
-P
-java:S2209z"5Change this instance-reference to a static reference.(¿î¾Äûÿÿÿÿ
-Q
-java:S2696"6Make the enclosing method "static" or remove this set.(Š¶œúÿÿÿÿ
-Q
-java:S2209€"5Change this instance-reference to a static reference.(ß¤…ïÿÿÿÿÿ
-R
-java:S2696‡"6Make the enclosing method "static" or remove this set.(‡¨™ôşÿÿÿÿ
-L
-java:S2209ˆ"5Change this instance-reference to a static reference.(éÀ¡
-M
-java:S2696"6Make the enclosing method "static" or remove this set.(«Î§Ê
-K
-java:S2209"5Change this instance-reference to a static reference.(ìı¨O
-M
-java:S2696—"6Make the enclosing method "static" or remove this set.(ˆ“¥»
-L
-java:S2209˜"5Change this instance-reference to a static reference.(´ö…
-M
-java:S2696Ÿ"6Make the enclosing method "static" or remove this set.(˜¦”ë
-Q
-java:S2209£"5Change this instance-reference to a static reference.(Øàƒëÿÿÿÿÿ
-M
-java:S2696§"6Make the enclosing method "static" or remove this set.(Î™
-Q
-java:S2209«"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ
+java:S2209n"5Change this instance-reference to a static reference.(¼ö…¶ûÿÿÿÿ
 X
-java:S3252µ"AUse static access with "javax.swing.SwingConstants" for "CENTER".(¦ğ¨¾
-K
-java:S2209¶"5Change this instance-reference to a static reference.(£Ş×i
+java:S2696u"6Make the enclosing method "static" or remove this set.(«©ææúÿÿÿÿ8ªÓì²‰2
+W
+java:S2209x"5Change this instance-reference to a static reference.(¿î¾Äûÿÿÿÿ8¹Óì²‰2
+X
+java:S2696}"6Make the enclosing method "static" or remove this set.(Š¶œúÿÿÿÿ8ÈÓì²‰2
+W
+java:S2209~"5Change this instance-reference to a static reference.(ß¤…ïÿÿÿÿÿ8ØÓì²‰2
+T
+java:S2696…"6Make the enclosing method "static" or remove this set.(ˆ“¥»8èÓì²‰2
+S
+java:S2209†"5Change this instance-reference to a static reference.(´ö…8øÓì²‰2
+T
+java:S2696"6Make the enclosing method "static" or remove this set.(˜¦”ë8ˆÔì²‰2
+X
+java:S2209‘"5Change this instance-reference to a static reference.(Øàƒëÿÿÿÿÿ8—Ôì²‰2
+T
+java:S2696•"6Make the enclosing method "static" or remove this set.(Î™8¦Ôì²‰2
+X
+java:S2209™"5Change this instance-reference to a static reference.(ôÌÇ¤ıÿÿÿÿ8µÔì²‰2
+X
+java:S3252£"AUse static access with "javax.swing.SwingConstants" for "CENTER".(¦ğ¨¾
+R
+java:S2209¤"5Change this instance-reference to a static reference.(£Ş×i8ÕÔì²‰2

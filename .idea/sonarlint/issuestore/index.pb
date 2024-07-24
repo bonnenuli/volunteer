@@ -20,8 +20,6 @@ $src/Jframe/ManageUtl/Volunteers.java,9\1\91ca72910a550028b47242bba91b99a96dbdd
 I
 src/Dao/ActtimeEvent.java,3\3\33601206cb5486d4172a1b0db26d0ef02bdec31c
 I
-src/Dao/ActTypeEvent.java,5\0\5084abd1dc6dc8889e31f2d73f47af21b12c470f
-I
 src/Dao/ActInofEvent.java,3\0\300b2f104398c2b981f063658a20dd0a0f47d019
 E
 src/Dao/VolEvent.java,2\c\2c145de0c3ab0a27a895e414fa9075e564222edb
@@ -79,8 +77,6 @@ E
 E
 src/Front/Fronts.java,3\d\3da108870d2fadc6ece0bc0b9051ca38b14a4a87
 D
-src/View/huodxx.java,b\a\bac63bc04d472bdf01aa5cee0e5e2989f6599939
-D
 src/View/Manage.java,2\f\2f6d0530e237e9ae75b33c93abc7bc9033e27bee
 Z
 *src/Jframe/ManageUtl/ManageComponents.java,8\a\8ae3f7c533afe20fd7c27b984e75dce266a0715d
@@ -94,8 +90,6 @@ W
 'src/Jframe/ManageUtl/UpdateAccount.java,b\1\b11d93933633e212c240723f30a8c72f480185c2
 =
 Volunteer.eml,2\b\2bb0c93a8e40cc2f5b840881dbfbcc685ee40011
-Q
-!src/Jframe/ManageUtl/Actsign.java,9\e\9e7265a2e0589510307c7065a24f08620c177eb1
 T
 $src/Jframe/VolunteerUtl/Moments.java,c\5\c59b24704ed7316f7233dfcbb1a08f9bcea06704
 Q

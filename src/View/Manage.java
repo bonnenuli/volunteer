@@ -35,9 +35,7 @@ public class Manage extends JFrame {
     public static JButton volunteer;
     public static JButton actforms;
     public static JButton acttimes;
-    public static JButton type;
     public static JButton activities;
-    public static JButton notic;
     public static JButton personal;
 
     // 创建内容面板
@@ -115,7 +113,7 @@ public class Manage extends JFrame {
         first2.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
         first2.setForeground(new Color(23, 153, 234));
         first2.setBackground(Color.cyan);
-        first2.setBounds(350, 10, 100, 70);
+        first2.setBounds(450, 10, 150, 70);
         volunteer = new JButton("志愿者管理");
         volunteer.setForeground(new Color(23, 153, 234));
         volunteer.setBackground(Color.cyan);
@@ -123,7 +121,7 @@ public class Manage extends JFrame {
         volunteer.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
         volunteer.setBorder(null);//设置此组件的无边框
         volunteer.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
-        volunteer.setBounds(470, 10, 210, 70);
+        volunteer.setBounds(640, 10, 240, 70);
         activities = new JButton("活动管理");
         activities.setFont(fronts.username);
         activities.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
@@ -131,23 +129,7 @@ public class Manage extends JFrame {
         activities.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
         activities.setForeground(new Color(23, 153, 234));
         activities.setBackground(Color.cyan);
-        activities.setBounds(700, 10, 180, 70);
-        type = new JButton("活动分类管理");
-        type.setFont(fronts.username);
-        type.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
-        type.setBorder(null);//设置此组件的无边框
-        type.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
-        type.setForeground(new Color(23, 153, 234));
-        type.setBackground(Color.cyan);
-        type.setBounds(900, 10, 240, 70);
-        notic = new JButton("通知公告");
-        notic.setFont(fronts.username);
-        notic.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
-        notic.setBorder(null);//设置此组件的无边框
-        notic.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
-        notic.setForeground(new Color(23, 153, 234));
-        notic.setBackground(Color.cyan);
-        notic.setBounds(1160, 10, 180, 70);
+        activities.setBounds(910, 10, 220, 70);
         actforms = new JButton("活动报名信息管理");
         actforms.setFont(fronts.username);
         actforms.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
@@ -155,7 +137,7 @@ public class Manage extends JFrame {
         actforms.setBorder(BorderFactory.createRaisedBevelBorder());//斜面边框（凸）
         actforms.setForeground(new Color(23, 153, 234));
         actforms.setBackground(Color.cyan);
-        actforms.setBounds(1360, 10, 300, 70);
+        actforms.setBounds(1170, 10, 330, 70);
         acttimes = new JButton("活动时长管理");
         acttimes.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
         acttimes.setBorder(null);//设置此组件的无边框
@@ -163,7 +145,7 @@ public class Manage extends JFrame {
         acttimes.setFont(fronts.username);
         acttimes.setForeground(new Color(23, 153, 234));
         acttimes.setBackground(Color.cyan);
-        acttimes.setBounds(1680, 10, 240, 70);
+        acttimes.setBounds(1540, 10, 260, 70);
         personal = new JButton("个人中心");
         personal.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));//将光标设为小手形状
         personal.setBorder(null);//设置此组件的无边框
@@ -171,7 +153,7 @@ public class Manage extends JFrame {
         personal.setFont(fronts.username);
         personal.setForeground(new Color(23, 153, 234));
         personal.setBackground(Color.cyan);
-        personal.setBounds(1940, 10, 180, 70);
+        personal.setBounds(1840, 10, 180, 70);
 
         //初始化第三个框的组件
         jPanel_3 = new javax.swing.JPanel();
@@ -184,14 +166,10 @@ public class Manage extends JFrame {
         footer.setBackground(new Color(8, 189, 252));
         footer.setBounds(200, 130, 1700, 170);
         footer.setForeground(new Color( 100,149,237));
-
-
         jPanel_1.add(footerLabel);
         jPanel_2.add(first2);
         jPanel_2.add(volunteer);
         jPanel_2.add(activities);
-        jPanel_2.add(type);
-        jPanel_2.add(notic);
         jPanel_2.add(actforms);
         jPanel_2.add(acttimes);
         jPanel_2.add(personal);
@@ -213,9 +191,7 @@ public class Manage extends JFrame {
         volunteer.addActionListener(listener_1);
         actforms.addActionListener(listener_1);
         acttimes.addActionListener(listener_1);
-        type.addActionListener(listener_1);
         activities.addActionListener(listener_1);
-        notic.addActionListener(listener_1);
         personal.addActionListener(listener_1);
 
     }
@@ -225,9 +201,7 @@ public class Manage extends JFrame {
         volunteer.setName("vol");
         actforms.setName("apply");
         acttimes.setName("time");
-        type.setName("type");
         activities.setName("acts");
-        notic.setName("not");
         personal.setName("per");
 
     }

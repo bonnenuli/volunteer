@@ -5,6 +5,9 @@ import Dao.LogiEvent;
 import Dao.RegEvent;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 public class Login extends JFrame {
     //定义一个布局
     FlowLayout flowlayout;
@@ -17,6 +20,8 @@ public class Login extends JFrame {
     public static JPasswordField passwordtext;//输入密码框
     public JButton login;//登录按钮
     public JButton register;//注册按钮
+    private final int totalChance = 3;
+    private int chance = 0;
     //监听类定义
     RegEvent regevent;
     LogiEvent logiEvent;
@@ -83,7 +88,7 @@ public class Login extends JFrame {
         comboBox.addItem("管理员");
         comboBox.addItem("志愿者");
         //登录按钮
-        login = new JButton("安全登录");
+        login = new JButton("登录系统");
         login.setPreferredSize(new Dimension(254,35));
         login.setFont(fronts.login);
         login.setBackground(new Color(8,189,252));
@@ -122,13 +127,10 @@ public class Login extends JFrame {
     }
     //所有监听事件
     void allEvent(){
-
         regevent = new RegEvent();
         logiEvent = new LogiEvent();
         register.addMouseListener(regevent);
         login.addActionListener(logiEvent);
-
-
     }
 
 }

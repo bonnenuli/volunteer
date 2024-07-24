@@ -20,8 +20,6 @@ $src/Jframe/ManageUtl/Volunteers.java,9\1\91ca72910a550028b47242bba91b99a96dbdd
 I
 src/Dao/ActtimeEvent.java,3\3\33601206cb5486d4172a1b0db26d0ef02bdec31c
 I
-src/Dao/ActTypeEvent.java,5\0\5084abd1dc6dc8889e31f2d73f47af21b12c470f
-I
 src/Dao/ActInofEvent.java,3\0\300b2f104398c2b981f063658a20dd0a0f47d019
 E
 src/Dao/VolEvent.java,2\c\2c145de0c3ab0a27a895e414fa9075e564222edb
@@ -55,8 +53,6 @@ G
 src/View/Volunteer.java,3\2\323fc2575464091c0d73542f1a5990806d41abdc
 D
 src/View/Manage.java,2\f\2f6d0530e237e9ae75b33c93abc7bc9033e27bee
-D
-src/View/huodxx.java,b\a\bac63bc04d472bdf01aa5cee0e5e2989f6599939
 c
 3.idea/libraries/mysql_connector_java_5_1_48__2_.xml,a\a\aa1942a7000a24a8d1ede19f810fdf044a5e78d2
 Z
@@ -96,8 +92,6 @@ E
 src/Front/Fronts.java,3\d\3da108870d2fadc6ece0bc0b9051ca38b14a4a87
 T
 $src/Jframe/VolunteerUtl/Moments.java,c\5\c59b24704ed7316f7233dfcbb1a08f9bcea06704
-Q
-!src/Jframe/ManageUtl/Actsign.java,9\e\9e7265a2e0589510307c7065a24f08620c177eb1
 Q
 !src/Jframe/VolunteerUtl/sign.java,8\b\8bbace4c1a88e2c2a8bf9ade9e3e23afd8303649
 S

@@ -47,13 +47,7 @@ public class VolEvent implements ActionListener {
             if ("first2".equals(button.getName())) {
                 new SchoolNews();
             }
-            if ("xw".equals(button.getName())) {
-                new SchoolNews();
-            }
-            if ("baom".equals(button.getName())) {
-                // 弹出提示框
-                JOptionPane.showMessageDialog(null, "报名成功！", "提示", JOptionPane.INFORMATION_MESSAGE);
-            }
+
 
         } catch (HeadlessException ex) {
             ex.printStackTrace();

@@ -1,5 +1,6 @@
 package Jframe.VolunteerUtl;
 
+import Dao.ActapplyEvent;
 import Front.Fronts;
 import Dao.VolEvent;
 
@@ -41,7 +42,7 @@ public class Apply extends JFrame {
     JLabel bgimg;
     //定义一个监听
     ActionListener listener_1;
-
+    ActionListener listener_2;
     public Apply() {
         init();
         // 设置窗口标题
@@ -210,6 +211,7 @@ public class Apply extends JFrame {
 
     void allEvent() {
         listener_1 = new VolEvent();
+        listener_2 = new ActapplyEvent();
         first2.addActionListener(listener_1);
         type.addActionListener(listener_1);
         activity.addActionListener(listener_1);
@@ -218,8 +220,8 @@ public class Apply extends JFrame {
         news.addActionListener(listener_1);
         message.addActionListener(listener_1);
         personal.addActionListener(listener_1);
-        apply.addActionListener(listener_1);
         sin.addActionListener(listener_1);
+        apply.addActionListener(listener_2);
     }
 
     void setAllName() {

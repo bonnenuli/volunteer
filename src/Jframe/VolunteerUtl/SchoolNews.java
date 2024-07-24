@@ -5,6 +5,7 @@ import Dao.VolEvent;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class SchoolNews extends JFrame {
@@ -139,7 +140,7 @@ public class SchoolNews extends JFrame {
         //初始化第三个框的组件
         jPanel_3 = new javax.swing.JPanel();
         jPanel_3.setLayout(boxLayout);
-        jPanel_3.setBackground(Color.cyan);
+        jPanel_3.setBackground(Color.white);
         jPanel_3.setBorder(BorderFactory.createTitledBorder(""));
         jPanel_3.setBounds(350,550,300,400);
         xw = new JButton("校园新闻");
@@ -148,29 +149,59 @@ public class SchoolNews extends JFrame {
         xw.setForeground(new Color(138,43,226));
         xw.setBackground(Color.cyan);
         xw.setBounds(0, 0, 300, 100);
+        xw.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                text2.setText("青年志愿者协会招新进行中\n\n我校青年志愿者协会换届啦！！！\n\n共话心声，逐梦未来\n\n");
+            }
+        });
         jz = new JButton("讲座报告");
         jz.setFont(fronts.username);
         jz.setContentAreaFilled(false);
         jz.setForeground(new Color(138,43,226));
         jz.setBackground(Color.cyan);
         jz.setBounds(0, 100, 300, 100);
+        jz.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                text2.setText("中国历代绘画宣讲开始啦！！！\n\n口腔宣讲开始啦！！！");
+            }
+        });
         jc = new JButton("精彩瞬间");
         jc.setFont(fronts.username);
         jc.setContentAreaFilled(false);
         jc.setForeground(new Color(138,43,226));
         jc.setBackground(Color.cyan);
         jc.setBounds(0, 200, 300, 100);
+        jc.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                text2.setText("1.童年乐章，快乐启航\n" +
+                        "2. 九九重阳节，浓浓敬老情\n" +
+                        "3.培养创新思维，塑造艺术人生\n" +
+                        "4.暖阳行动\n" +
+                        "5.文明交通伴我行社区闭班仪式\n" +
+                        "6.青春版夕阳开班仪式\n" +
+                        "7.传统文化，匠心独运\n" +
+                        "8.防范再行动，安全共创建");
+            }
+        });
         hd = new JButton("活动简介");
         hd.setFont(fronts.username);
         hd.setContentAreaFilled(false);
         hd.setForeground(new Color(138,43,226));
         hd.setBackground(Color.cyan);
         hd.setBounds(0, 300, 300, 100);
-
+        hd.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                text2.setText("        这是一场充满热情与期待的活动，我们精心筹备了各式各样的节目，\n\n旨在为志愿者们提供一个展示自我、互相交流的平台。从激昂的诗朗诵到\n\n优美的舞蹈“万疆”，从动感的现代舞到抒情的歌曲“美丽中国”，志愿者们\n\n用精彩的表演传递着对这次活动的热爱和对志愿服务精神的追求。");
+            }
+        });
         jPanel_4 = new javax.swing.JPanel();
         jPanel_4.setLayout(boxLayout);
         jPanel_4.setBorder(BorderFactory.createTitledBorder(""));
-        jPanel_4.setBounds(710,550,1600,600);
+        jPanel_4.setBounds(710,550,1400,600);
         first1 = new JButton("首页");
         first1.setFont(fronts.username);
         first1.setContentAreaFilled(false);
@@ -182,7 +213,7 @@ public class SchoolNews extends JFrame {
         text2.setOpaque(false);
         text2.setFont(fronts.username);
         textsScrollPane = new JScrollPane(text2);
-        text2.setBounds(80,100,800,500);
+        text2.setBounds(80,100,1200,500);
         //添加按钮
         jPanel_1.add(footerLabel);
         jPanel_2.add(first2);
@@ -221,7 +252,6 @@ public class SchoolNews extends JFrame {
         message.addActionListener(listener_1);
         personal.addActionListener(listener_1);
         first2.addActionListener(listener_1);
-        xw.addActionListener(listener_1);
         sin.addActionListener(listener_1);
     }
 
@@ -235,7 +265,6 @@ public class SchoolNews extends JFrame {
         message.setName("message");
         personal.setName("per");
         first2.setName("first2");
-        xw.setName("xw");
         sin.setName("sin");
     }
 
